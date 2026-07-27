@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BIOL 114, Exam Practice v1.0.4 [stable]</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/open-dyslexic">
+  
+  <style>
+    body {
+  font-family: Arial;
+  background: #121212 !important; /* dark background */
+  color: #e0e0e0;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+
+.dyslexia-font {
+  font-family: "OpenDyslexic", sans-serif !important;
+  line-height: 1.7;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+}
+
+.reduce-motion * {
+  animation: none !important;
+  transition: none !important;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #FF69AF;
+  font-style: italic;
+}
+
+/* headings */
+h2, h3 {
+  color: #ffffff;
+}
+
+/* buttons */
+button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+/* hover effect */
+button:hover {
+  background-color: #3a3a3a;
+}
+
+/* disabled buttons */
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* feedback box */
+#feedback {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* correct / incorrect colors */
+.correct {
+  background: #2e7d32;
+  color: white;
+}
+
+.incorrect {
+  background: #F47174;
+  color: white;
+}
+
+/* progress bar */
+.progress-bar {
+  height: 10px;
+  background: #333;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+.progress-fill {
+  height: 10px;
+  background: linear-gradient(90deg, #4cafef, #00c6ff);
+  border-radius: 5px;
+  width: 0%;
+}
+
+/* dropdown styling */
+select {
+  padding: 6px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2a2a2a;
+  color: white;
+}
+
+#score {
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+
+#bankCount {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #c0c0c0;
+}
+
+#question {
+  margin-bottom: 8px;
+  line-height: 1.4;
+  color: #ffffff !important;
+}
+
+#questionMeta {
+  margin-bottom: 15px;
+  color: #c0c0c0;
+  font-size: 0.9rem;
+}
+
+footer {
+    color: #FF69B4;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 40px;
+    font-size: 1em;
+}
+footer a {
+color: white;
+font-weight: bold;
+text-decoration: underline;
+}
+
+
+/* fade styles */
+.fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.fade-out {
+  animation: fadeOut 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px); /* slight upward motion */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    max-width: 100%;
+  }
+  h2, h3, h4 {
+    font-size: 18px;
+  }
+  button {
+    padding: 15px;
+    font-size: 16px;
+    min-height: 44px;
+  }
+  #feedback {
+    padding: 10px;
+    font-size: 14px;
+  }
+  select {
+    padding: 10px;
+    font-size: 16px;
+  }
+ #score {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #aaaaaa;
+}
+#bankCount {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 10px;
+  white-space: pre-line; /* allow line breaks */  
+}
+}
+  </style>
+</head>
+
+<body>
+
+<h3>BIOL 114, Exam 1 Practice v1.0.3 [stable]</h3>
+
+<!-------Dyslexia Option Toggle-->
+<label>
+  <input type="checkbox" id="fontToggle" onchange="toggleFont()">
+  Dyslexia-Friendly Font
+</label>
+
+<label>
+  <input type="checkbox"
+         id="reduceMotionToggle"
+         onchange="toggleMotion()">
+  Reduce Animations (ADD and ADHD Friendly)
+</label>
+<br><br>
+
+<!-- Category selection dropdown -->
+<label>Choose exam:</label>
+<select id="examSelect" onchange="startQuiz()">
+  <option value="All">All Exams</option>
+  <option value="Exam 1">Exam 1</option>
+  <option value="Exam 2">Exam 2</option>
+  <option value="Exam 3">Exam 3</option>
+  <option value="Exam 4">Exam 4</option>
+  <option value="Exam 5">Exam 5</option>
+</select>
+<label>Choose topic:</label>
+<select id="categorySelect" onchange="startQuiz()">
+  <option value="All">All</option>
+  <option value="Evolution">Evolution</option>
+  <option value="Chemistry of Life">Chemistry of Life</option>
+  <option value="Prokaryotes">Prokaryotes</option>
+  <option value="Eukaryotes">Eukaryotes</option>
+  <option value="Protists">Protists</option>
+  <option value="DNA Replication">DNA Replication</option>
+  <option value="Mitosis">Mitosis</option>
+  <option value="Central Dogma">Central Dogma</option>
+  <option value="Meiosis">Meiosis</option>
+  <option value="Mendelian Genetics">Mendelian Genetics</option>
+  <option value="Multiple Alleles and Pedigrees">Multiple Alleles and Pedigrees</option>
+  <option value="Chromosome Behavior">Chromosome Behavior</option>
+  <option value="Sex Chromosomes">Sex Chromosomes</option>
+  <option value="Linked Genes">Linked Genes</option>
+  <option value="Cellular Respiration">Cellular Respiration</option>
+  <option value="Fungi">Fungi</option>
+  <option value="Photosynthesis">Photosynthesis</option>
+  <option value="Plant Biology">Plant Biology</option>
+  <option value="Population Genetics and Evolution">Population Genetics and Evolution</option>
+  </select>
+<label>Number of questions:</label>
+<select id="questionCountSelect" onchange="startQuiz()">
+  <option value="10">10</option>
+  <option value="15">15</option>
+  <option value="20" selected>20</option>
+  <option value="25">25</option>
+  <option value="30">30</option>
+</select>
+
+<!-- Progress bar -->
+<div class="progress-bar">
+  <div id="progressFill" class="progress-fill"></div>
+</div>
+<!-- Score and mode display -->
+
+<p id="bankCount"></p>
+<p id="modeLabel"></p>
+<!-- Question and options -->
+<div id="quizContainer">
+  <h2 id="question"></h2>
+  <p id="score"></p>
+  <div id="questionMeta"></div>
+  <div id="options"></div>
+</div>
+
+
+<div id="feedback"></div>
+
+<br>
+<button onclick="nextQuestion()">Next</button>
+
+biol114questions.js"></script>
+
+<script>
+
+//----Anonymous Session ID----
+const sessionId =
+crypto.randomUUID();
+
+//----Session Tracking and Data Collection----
+
+function logQuestionResponse(
+  selectedOption,
+  isCorrect
+) {
+
+  const q = quizSet[current];
+
+  fetch(
+    "https://script.google.com/macros/s/AKfycbyiC54YDwHHcKDwCZMgeoYcuEtpjxfOVph_a8lfdp5nxXxapkRX5RWYbnSYIFMQlibZ/exec",
+    {
+      method: "POST",
+      mode: "no-cors",
+      headers: {
+        "Content-Type":
+          "application/json"
+      },
+      body: JSON.stringify({
+        sessionId: sessionId,
+        question: q.question,
+        category: q.category,
+        exam: q.exam,
+        difficulty: q.difficulty,
+        correct: isCorrect,
+        selectedAnswer:
+          selectedOption.text,
+        correctAnswer:
+          q.options[q.correct]
+      })
+    }
+  );
+}
+
+// ---- Question Bank Counters ----
+function updateBankCount() {
+  document.getElementById("bankCount").innerText =
+    `Questions are randomly selected from a larger question bank. New quizzes may present different questions each time. Total Questions = ${questions.length}`;
+}
+
+// ---- Dyslexia Friendly Font Toggle ----
+function toggleFont() {
+  const body = document.body;
+
+  if (document.getElementById("fontToggle").checked) {
+    body.classList.add("dyslexia-font");
+  } else {
+    body.classList.remove("dyslexia-font");
+  }
+}
+
+function toggleMotion() {
+  const enabled =
+    document.getElementById("reduceMotionToggle").checked;
+
+  if (enabled) {
+    document.body.classList.add("reduce-motion");
+  } else {
+    document.body.classList.remove("reduce-motion");
+  }
+}
+
+// ---- Question Category Statistics Tracking Function ----
+function initializeCategoryStats() {
+  const stats = {};
+
+  questions.forEach(q => {
+    if (!stats[q.category]) {
+      stats[q.category] = {
+        correct: 0,
+        total: 0
+      };
+    }
+  });
+
+  return stats;
+}
+
+// ---- STATE ----
+let current = 0;
+let score = 0;
+let selected = false;
+let currentShuffled = [];
+let quizSet = [];
+let missedQuestions = [];
+let reviewMode = false;
+let categoryStats = initializeCategoryStats();
+
+
+// start quiz with selected category
+function startQuiz() {
+  quizSet = buildQuizSet();
+
+  current = 0;
+  score = 0;
+  selected = false;
+  missedQuestions = [];
+  reviewMode = false;
+
+  categoryStats = initializeCategoryStats();
+  updateBankCount();
+  loadQuestion();
+}
+
+// limit to 20 questions, but protects against categories with fewer than 20 questions breaking the quiz
+function pickRandom(arr, n) {
+  return shuffle(arr).slice(0, Math.min(n, arr.length));
+}
+
+function uniqueByQuestion(arr) {
+  const seen = new Set();
+  return arr.filter(q => {
+    if (seen.has(q.question)) return false;
+    seen.add(q.question);
+    return true;
+  });
+}
+;
+
+startQuiz();
+
+// Combine and shuffle final quiz
+
+function buildQuizSet() {
+  const selectedCategory = document.getElementById("categorySelect").value;
+  const selectedExam = document.getElementById("examSelect").value;
+  const questionCount = parseInt(document.getElementById("questionCountSelect").value);
+
+  let filtered = questions;
+
+  // ✅ filter by exam
+  if (selectedExam !== "All") {
+    filtered = filtered.filter(q => q.exam === selectedExam);
+  }
+
+  // ✅ filter by category (if NOT "All", keep current behavior)
+  if (selectedCategory !== "All") {
+    filtered = filtered.filter(q => q.category === selectedCategory);
+    return shuffle(pickRandom(filtered, questionCount));
+  }
+
+  // ✅ NEW: balanced sampling when "All" is selected
+
+  const categories = [...new Set(filtered.map(q => q.category))];
+
+  const pools = categories.map(cat => ({
+    name: cat,
+    questions: filtered.filter(q => q.category === cat)
+  }));
+
+  let result = [];
+
+  // ✅ guarantee at least 1 per category (if possible)
+  if (questionCount >= categories.length) {
+    pools.forEach(pool => {
+      const picked = pickRandom(pool.questions, 1);
+      if (picked.length > 0) result.push(picked[0]);
+    });
+  }
+
+  // ✅ fill remaining slots randomly
+  const remaining = questionCount - result.length;
+
+const remainingPool = filtered.filter(q =>
+  !result.some(r => r.question === q.question));
+
+  const remainingQuestions = pickRandom(remainingPool, remaining);
+
+  return shuffle([...result, ...remainingQuestions]);
+}
+
+// ---- FUNCTIONS ----
+
+function shuffle(arr) {
+  return [...arr].sort(() => Math.random() - 0.5);
+}
+
+function loadQuestion() {
+  const container = document.getElementById("quizContainer");
+
+  // ✅ FADE OUT first
+  container.classList.remove("fade-in");
+  container.classList.add("fade-out");
+
+  const delay =
+  document.body.classList.contains("reduce-motion")
+    ? 0
+    : 450;
+
+setTimeout(() => {
+
+    const q = quizSet[current];
+    selected = false;
+
+    // ✅ update question
+    const questionEl = document.getElementById("question");
+    questionEl.innerText = q.question;
+
+    const questionMetaEl = document.getElementById("questionMeta");
+    questionMetaEl.innerText = `Exam: ${q.exam} | Category: ${q.category} | Difficulty: ${q.difficulty}`;
+
+    // ✅ update score display
+    document.getElementById("score").innerText =
+      `Question ${current + 1} of ${quizSet.length} | Score: ${score}`;
+
+    // ✅ bank count display
+    const selectedCategory = document.getElementById("categorySelect").value;
+    const questionCount = parseInt(document.getElementById("questionCountSelect").value);
+    const bankCount = selectedCategory === "All"
+      ? questions.length
+      : questions.filter(q => q.category === selectedCategory).length;
+
+    document.getElementById("bankCount").innerText =
+  "Questions are randomly selected from a larger question bank. New quizzes may present different questions each time. Total questions = " + questions.length;
+
+    // ✅ review mode label
+    if (reviewMode) {
+      document.getElementById("modeLabel").innerText =
+        "Review Mode: Fix Your Mistakes";
+    } else {
+      document.getElementById("modeLabel").innerText = "";
+    }
+
+    // ✅ clear options
+    const optionsDiv = document.getElementById("options");
+    while (optionsDiv.firstChild) {
+      optionsDiv.removeChild(optionsDiv.firstChild);
+    }
+
+    let combined = q.options.map((opt, i) => ({
+      text: opt,
+      explanation: q.explanations[i],
+      isCorrect: i === q.correct
+    }));
+
+    combined = shuffle(combined);
+    currentShuffled = combined;
+
+    combined.forEach((item, i) => {
+      const btn = document.createElement("button");
+      btn.innerText = item.text;
+
+      // optional stagger
+      btn.style.animationDelay = `${i * 0.05}s`;
+      btn.classList.add("fade-in");
+
+      btn.onclick = () => selectAnswer(i);
+
+      optionsDiv.appendChild(btn);
+    });
+
+    document.getElementById("feedback").innerHTML = "";
+
+    updateProgress();
+
+    // ✅ NOW fade back in
+    container.classList.remove("fade-out");
+    container.classList.add("fade-in");
+
+  }, delay);  // timing matches fade-out duration
+}
+
+function selectAnswer(index) {
+  if (selected) return;
+  selected = true;
+
+  const selectedOption = currentShuffled[index];
+
+  logQuestionResponse(
+  selectedOption,
+  selectedOption.isCorrect
+);
+  
+  const currentCategory = quizSet[current].category;
+  categoryStats[currentCategory].total++;
+
+  const feedback = document.getElementById("feedback");
+
+  const buttons = document.querySelectorAll("#options button");
+
+  buttons.forEach((btn, i) => {
+    btn.disabled = true;
+
+    if (currentShuffled[i].isCorrect) {
+      btn.style.backgroundColor = "#2e7d32";
+    }
+
+    if (i === index && !selectedOption.isCorrect) {
+      btn.style.backgroundColor = "#F47174";
+    }
+  });
+
+ 
+    if (selectedOption.isCorrect) {
+      score++;
+      categoryStats[currentCategory].correct++;
+
+
+    feedback.className = "correct";
+    feedback.innerHTML = selectedOption.explanation;
+
+  } else {
+
+    // ✅ ADD THIS LINE
+    missedQuestions.push(quizSet[current]);
+
+    feedback.className = "incorrect";
+    feedback.innerHTML = selectedOption.explanation;
+  }
+
+  updateScore();
+}
+
+
+function nextQuestion() {
+  if (!selected) return;
+
+  current++;
+
+  if (current >= quizSet.length) {
+    showResults();
+    return;
+  }
+
+  loadQuestion();
+}
+// Update score display
+function updateScore() {
+  document.getElementById("score").innerText =
+    "Score: " + score + " / " + quizSet.length;
+}
+// Update progress bar based on current question
+function updateProgress() {
+  const progress = ((current) / quizSet.length) * 100;
+  document.getElementById("progressFill").style.width = progress + "%";
+}
+
+
+function showResults() {
+  const reviewAvailable = missedQuestions.length > 0;
+  let categoryResults = "";
+
+Object.keys(categoryStats).forEach(cat => {
+  const stats = categoryStats[cat];
+
+  if (stats.total > 0) {
+    const percent = Math.round((stats.correct / stats.total) * 100);
+
+    categoryResults += `
+      <p>${cat}: ${stats.correct} / ${stats.total} (${percent}%)</p>
+    `;
+  }
+});
+  const resultsHtml = `
+    <div id="resultsSummary">
+      <h2>Quiz Complete 🎉</h2>
+      <p>Score: ${score} / ${quizSet.length}</p>
+      <p>Percentage: ${Math.round((score / quizSet.length) * 100)}%</p>
+      <h3>Performance by Category:</h3>
+      ${categoryResults}
+      ${reviewAvailable ? '<button id="reviewButton">Review Missed Questions</button>' : ''}
+      <button id="restartButton">Restart Quiz</button>
+    </div>
+  `;
+
+  document.getElementById("question").innerText = "";
+  document.getElementById("questionMeta").innerText = "";
+  document.getElementById("options").innerHTML = resultsHtml;
+  document.getElementById("feedback").innerHTML = "";
+  document.getElementById("modeLabel").innerText = "";
+  document.getElementById("progressFill").style.width = "100%";
+
+  const nextButton = document.querySelector("button[onclick=\"nextQuestion()\"]");
+  if (nextButton) {
+    nextButton.style.display = "none";
+  }
+
+  if (reviewAvailable) {
+    document.getElementById("reviewButton").onclick = startReview;
+  }
+  document.getElementById("restartButton").onclick = () => location.reload();
+}
+// Start review mode with only missed questions
+function startReview() {
+  reviewMode = true;
+
+  quizSet = shuffle(missedQuestions);
+  missedQuestions = [];
+
+  current = 0;
+  score = 0;
+  selected = false;
+
+  const nextButton = document.querySelector("button[onclick=\"nextQuestion()\"]");
+  if (nextButton) {
+    nextButton.style.display = "block";
+  }
+
+  loadQuestion();
+}
+
+
+// ---- START ----
+
+
+startQuiz();
+
+</script>
+
+<footer>
+  <p>© 2026 Michelle Gilbert. All rights reserved.</p>
+  <p>
+    <a href="https://michellemorphometrics.com/engage-with-biology/"
+       target="_blank">
+       Learn more about this project
+    </a>
+  </p>
+</footer>
+
+</body>
+</html>
