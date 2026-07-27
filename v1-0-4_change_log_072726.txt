@@ -1,0 +1,87 @@
+BIOL 114 Exam Practice
+Version 1.0.4 (Stable)
+27 July 2026
+
+## ========================================
+ARCHITECTURE IMPROVEMENTS
+
+• Separated the question bank from the primary application code.
+
+- Migrated all quiz content into an external JavaScript file (biol114questions.js).
+- Quiz engine logic and question content are now maintained independently.
+- Significantly reduced the size and complexity of the primary HTML file.
+- Improved long-term maintainability and future content expansion.
+
+• Implemented external question-bank loading.
+
+- Quiz application now loads question data from a dedicated script file.
+- Preserves all existing functionality while improving project organization.
+- Establishes a modular framework for future question-bank growth.
+
+## ========================================
+CODE MAINTAINABILITY IMPROVEMENTS
+
+• Improved separation of content and application logic.
+
+- Question development can now occur without modifying core quiz functionality.
+- Reduced risk of accidental breakage when adding new questions.
+- Simplified debugging and future feature development.
+
+• Streamlined project structure.
+
+- Core quiz functions are now easier to locate and edit.
+- Application code is no longer buried within thousands of lines of question-bank content.
+- Improved readability for future maintenance and version control.
+
+## ========================================
+DEPLOYMENT IMPROVEMENTS
+
+• Updated GitHub Pages deployment structure.
+
+- Added support for externally referenced question-bank files.
+- Verified compatibility between local and GitHub-hosted versions.
+- Established a scalable file architecture for future releases.
+
+## ========================================
+BUG FIXES
+
+• Corrected JavaScript initialization issues discovered during v1.0.4 development.
+
+- Fixed a typographical scripting error that prevented quiz startup under certain conditions.
+- Corrected question-bank loading references following migration to an external file.
+- Verified successful execution of:
+  - Quiz generation
+  - Category filtering
+  - Exam filtering
+  - Progress tracking
+  - Review Mode
+  - Analytics collection
+  - Results reporting
+
+• Improved startup reliability.
+
+- Confirmed proper script loading order between application code and external question-bank data.
+- Eliminated initialization failures related to undefined question-bank references.
+
+## ========================================
+QUALITY ASSURANCE
+
+Comprehensive testing completed for:
+
+• Randomized quiz generation
+• Exam-based filtering
+• Category-based filtering
+• Variable question counts
+• Question randomization
+• Progress bar functionality
+• Category performance tracking
+• Review Missed Questions Mode
+• Google Sheets analytics integration
+• GitHub Pages deployment
+
+All major functions verified operational following migration to external question-bank architecture.
+
+## ========================================
+VERSION SUMMARY
+
+Version 1.0.4 focuses on internal organization, maintainability, and deployment stability. The question bank has been successfully separated from the core quiz engine and migrated to an external JavaScript file. This architectural change simplifies future content expansion, improves code readability, reduces maintenance complexity, and provides a more scalable foundation for continued development of the BIOL 114 Exam Practice platform.

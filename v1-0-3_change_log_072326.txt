@@ -1,0 +1,273 @@
+BIOL 110 Exam Practice
+Version 1.0.3 (Stable)
+23 July 2026
+
+========================================
+NEW FEATURES
+========================================
+
+• Added automatic category statistics tracking.
+  - Categories are now generated dynamically from the question bank.
+  - Eliminates the need to manually update category performance tracking when new topics are added.
+
+• Added category performance reporting at quiz completion.
+  - Students now receive category-by-category performance summaries.
+  - Displays correct responses, total responses, and percentage correct for each category attempted.
+
+• Added balanced question selection when "All Categories" is chosen.
+  - Ensures broader topic representation across quizzes.
+  - Reduces overrepresentation of heavily populated question categories.
+
+• Added anonymous question-level analytics.
+  - Student responses are transmitted anonymously to a Google Sheets database.
+  - Captures:
+      * Question attempted
+      * Category
+      * Exam
+      * Difficulty
+      * Selected answer
+      * Correct/incorrect status
+  - Facilitates instructional analytics and question refinement.
+
+========================================
+ACCESSIBILITY IMPROVEMENTS
+========================================
+
+• Added Dyslexia-Friendly Font Mode.
+  - Toggle enables OpenDyslexic font for improved readability.
+  - Includes enhanced spacing and readability optimizations.
+
+• Added Reduced Animation Mode.
+  - Disables fade animations and transition effects.
+  - Provides a more comfortable experience for students sensitive to motion effects.
+  - Question transitions become instantaneous when enabled.
+
+========================================
+USER EXPERIENCE IMPROVEMENTS
+========================================
+
+• Improved category statistics initialization and reset behavior.
+
+• Improved quiz startup logic.
+
+• Removed redundant question-loading behavior.
+
+• Refined review mode integration.
+
+• Improved compatibility with future category and question-bank expansion.
+
+========================================
+CONTENT UPDATES
+========================================
+
+Eukaryotic Cell Biology
+
+Added new question sets covering:
+
+• Organelle Function
+• Cellular Compartmentalization
+
+Endosymbiotic Theory
+  - Evidence supporting endosymbiosis
+  - Mitochondrial and chloroplast origins
+  - Application of endosymbiotic evidence
+
+Cytoskeleton
+  - Structural support
+  - Intracellular transport
+  - Microtubule function
+
+Cell Signaling
+  - Receptor function
+  - Signal transduction fundamentals
+  - Receptor specificity
+  - Consequences of signaling pathway disruption
+
+========================================
+INSTRUCTOR ANALYTICS
+========================================
+
+• Integrated Google Sheets data collection framework.
+
+• Enables future analysis of:
+  - Most frequently missed questions
+  - Category-specific performance trends
+  - Student usage patterns
+  - Question difficulty calibration
+  - Conceptual misconceptions
+
+========================================
+BUG FIXES
+========================================
+
+• Corrected category statistics initialization logic.
+
+• Fixed category tracking initialization to reference the active question bank.
+
+• Improved startup sequencing of quiz initialization.
+
+• Corrected animation behavior when Reduced Motion Mode is activated.
+
+========================================
+VERSION SUMMARY
+========================================
+
+Version 1.0.3 focuses on accessibility, analytics, category-level
+performance tracking, and expansion of the Eukaryotic Cell Biology
+question bank. This release establishes the foundation for
+data-driven refinement of question banks, student study support,
+and future expansion of the BIOL 110 Exam Practice platform.
+
+## ========================================
+POST-RELEASE CONTENT EXPANSION ADDENDUM
+Version 1.0.3
+26 July 2026
+
+Following the initial 1.0.3 release, substantial expansion of the
+BIOL 110 Exam Practice question bank was completed to support
+Exam 2 and Exam 3 content.
+
+## ========================================
+EXAM 2 CONTENT EXPANSION
+
+Added comprehensive question banks for:
+
+Protists
+• Protist diversity
+• Autotrophic and heterotrophic nutrition
+• Locomotion mechanisms
+• Ecological roles
+• Disease-causing protists
+• Application-based protist identification
+
+DNA Replication
+• Semiconservative replication
+• DNA polymerase
+• Helicase
+• Primase
+• DNA ligase
+• Leading and lagging strands
+• Okazaki fragments
+• Replication fidelity
+• Replication enzyme dysfunction scenarios
+
+Mitosis and the Cell Cycle
+• Cell cycle phases
+• Interphase
+• Chromosome behavior during mitosis
+• Spindle function
+• Cell-cycle checkpoints
+• Cytokinesis
+• Cell division error scenarios
+
+Central Dogma of Molecular Biology
+• DNA → RNA → Protein
+• Transcription
+• Translation
+• Gene expression
+• Codons and anticodons
+• mRNA, tRNA, and rRNA function
+• Ribosome structure and function
+• Mutation and gene-expression scenarios
+
+Meiosis, Heredity, and Cell Life Cycles
+• Haploid and diploid cells
+• Gamete formation
+• Fertilization
+• Homologous chromosomes
+• Meiosis I and Meiosis II
+• Crossing over
+• Independent assortment
+• Genetic variation
+• Sexual and asexual life cycles
+
+## ========================================
+EXAM 3 CONTENT EXPANSION
+
+Added comprehensive question banks for:
+
+Mendelian Genetics
+• Genes and alleles
+• Dominant and recessive inheritance
+• Genotype and phenotype
+• Homozygous and heterozygous conditions
+• Monohybrid crosses
+• Punnett square interpretation
+• Basic inheritance probability
+
+Chromosome Behavior
+• Law of Segregation
+• Law of Independent Assortment
+• Chromosome-based explanations of Mendelian inheritance
+• Gamete formation
+• Dihybrid inheritance
+• Chromosome behavior during meiosis
+
+Multiple Alleles and Pedigrees
+• Pedigree interpretation
+• Identification of dominant and recessive inheritance patterns
+• Carrier concepts
+• Generational inheritance analysis
+• Pleiotropy
+• Single-gene effects on multiple traits
+
+Sex Chromosomes
+• X and Y chromosome inheritance
+• Autosomes versus sex chromosomes
+• X-linked inheritance
+• Chromosome-complement reasoning
+• Sex-linked trait interpretation
+• Inclusive chromosome-focused inheritance terminology
+
+Linked Genes
+• Genetic linkage
+• Gene loci
+• Recombination
+• Crossing over
+• Linked versus independently assorting genes
+• Parental and recombinant allele combinations
+• Chromosomal basis of linkage
+
+## ========================================
+QUESTION BANK ENHANCEMENTS
+
+• Expanded use of scenario-based and application-focused questions.
+• Increased emphasis on biological reasoning rather than terminology memorization.
+• Added additional higher-order analysis questions across all new categories.
+• Expanded explanation library for both correct and incorrect answer choices.
+• Improved alignment between question difficulty levels and course learning objectives.
+
+Difficulty Structure Standardization
+• Easy questions emphasize foundational concepts and vocabulary.
+• Medium questions emphasize interpretation and application.
+• Hard questions emphasize experimental reasoning, biological mechanisms, and scenario analysis.
+
+## ========================================
+CONTENT SUMMARY
+
+Question bank expansion now provides comprehensive coverage of:
+
+Exam 1
+• Evolution
+• Chemistry of Life
+• Prokaryotes
+• Eukaryotes
+
+Exam 2
+• Protists
+• DNA Replication
+• Mitosis
+• Central Dogma
+• Meiosis
+
+Exam 3
+• Mendelian Genetics
+• Chromosome Behavior
+• Multiple Alleles and Pedigrees
+• Sex Chromosomes
+• Linked Genes
+
+This content expansion substantially increases topic coverage,
+supports quiz variety through a larger question pool, and
+provides students with additional opportunities for retrieval
+practice, self-assessment, and concept reinforcement.
