@@ -55,6 +55,15 @@ button {
   font-size: 16px;
   transition: all 0.2s ease;
 }
+ .saveCodeBtn {
+  display: inline-block;
+  width: auto;
+  padding: 6px 12px;
+  margin-left: 8px;
+  font-size: 14px;
+  background-color: #FF69AF;
+  color: white;
+}
 
 /* hover effect */
 button:hover {
@@ -230,7 +239,7 @@ text-decoration: underline;
 
 <body>
 
-<h3>BIOL 114, Exam 1 Practice v1.0.4 [stable]</h3>
+<h3>BIOL 114, Exam 1 Practice v1.0.3 [stable]</h3>
 
 <!-------Dyslexia Option Toggle-->
 <label>
@@ -244,6 +253,30 @@ text-decoration: underline;
          onchange="toggleMotion()">
   Reduce Animations (ADD and ADHD Friendly)
 </label>
+<br><br>
+
+<!-- Course Code Option -->
+
+<label>Course Access Code (optional):</label>
+
+<input
+  type="text"
+  id="courseCodeInput"
+  placeholder="Enter course code from Canvas">
+
+<button
+  type="button"
+  class="saveCodeBtn"
+  onclick="saveCourseCode()">
+  Save Code
+</button>
+
+<br>
+
+<small id="courseCodeStatus">
+Penn State students: enter the access code provided in Canvas.
+</small>
+
 <br><br>
 
 <!-- Category selection dropdown -->
@@ -308,6 +341,7 @@ text-decoration: underline;
 <div id="feedback"></div>
 
 <br>
+
 <button onclick="nextQuestion()">Next</button>
 
 <script src="biol114questions.js"></script>
@@ -338,6 +372,7 @@ function logQuestionResponse(
       },
       body: JSON.stringify({
         sessionId: sessionId,
+        courseCode: courseCode,
         question: q.question,
         category: q.category,
         exam: q.exam,
@@ -379,6 +414,29 @@ function toggleMotion() {
     document.body.classList.remove("reduce-motion");
   }
 }
+// ---- Save course code----
+function saveCourseCode() {
+
+  courseCode =
+    document.getElementById("courseCodeInput")
+      .value
+      .trim();
+
+  if (courseCode === "") {
+
+    document.getElementById("courseCodeStatus")
+      .innerText =
+      "No course code entered.";
+
+  } else {
+
+    document.getElementById("courseCodeStatus")
+      .innerText =
+      "✓ Course code saved.";
+
+  }
+}
+
 
 // ---- Question Category Statistics Tracking Function ----
 function initializeCategoryStats() {
@@ -404,11 +462,18 @@ let currentShuffled = [];
 let quizSet = [];
 let missedQuestions = [];
 let reviewMode = false;
+let courseCode = "";
 let categoryStats = initializeCategoryStats();
 
 
 // start quiz with selected category
 function startQuiz() {
+
+  courseCode = 
+    document.getElementById("courseCodeInput")
+      .value
+      .trim();
+
   quizSet = buildQuizSet();
 
   current = 0;
