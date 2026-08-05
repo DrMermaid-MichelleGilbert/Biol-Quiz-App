@@ -1,0 +1,80 @@
+BIOL 114 Exam Practice
+Version 1.0.5 (Stable)
+04 August 2026
+
+## ========================================
+NEW FEATURES
+
+• Added optional Course Access Code system.
+
+- Students may enter a course-specific access code provided through Canvas.
+- Access codes are not required to use the quiz.
+- Maintains public accessibility while supporting course-specific analytics.
+
+• Added Course Code Save functionality.
+
+- Students may explicitly save their course code before beginning a quiz.
+- Visual confirmation message indicates successful code registration.
+- Improves transparency and usability of analytics participation.
+
+## ========================================
+ANALYTICS IMPROVEMENTS
+
+• Expanded Google Sheets analytics collection.
+
+- Course access codes are now transmitted with quiz response data.
+- Enables separation of enrolled student activity from public website visitors.
+- Preserves anonymous usage data while improving instructional analysis.
+
+• Improved cohort-level analytics capabilities.
+
+- Supports semester-specific analysis.
+- Allows filtering of course data using Canvas-distributed access codes.
+- Facilitates cleaner interpretation of learning analytics.
+
+## ========================================
+USER INTERFACE IMPROVEMENTS
+
+• Added dedicated Course Access Code entry field.
+
+• Added Save Code button.
+
+• Added visual confirmation message following code submission.
+
+• Improved course-code workflow for mobile and desktop users.
+
+## ========================================
+SOFTWARE IMPROVEMENTS
+
+• Continued refinement of project architecture.
+
+- Maintained separation between quiz engine and external question-bank file.
+- Verified compatibility of course-code functionality with GitHub Pages deployment.
+- Verified compatibility with Google Apps Script analytics integration.
+
+## ========================================
+CONTENT DEVELOPMENT
+
+Cellular Respiration Question Bank
+
+• Initiated development of Exam 4 content.
+
+New question bank topics include:
+
+- ATP and energy transfer
+- Glycolysis
+- Fermentation
+- Pyruvate oxidation
+- Citric acid cycle
+- Electron transport chain
+- Chemiosmosis
+- ATP synthase
+- Experimental and application-based respiration scenarios
+
+Current Cellular Respiration bank:
+• ~60 questions completed
+
+## ========================================
+VERSION SUMMARY
+
+Version 1.0.5 introduces course-level analytics tracking through optional access codes while preserving public access to the BIOL 114 Exam Practice Platform. The release also marks the beginning of Exam 4 content development with the addition of a substantial Cellular Respiration question bank emphasizing both foundational concepts and higher-order biological reasoning.
