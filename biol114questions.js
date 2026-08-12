@@ -5154,7 +5154,7 @@ const questions = [
     "Crossing over creates new combinations of alleles.",
     "Translation produces proteins.",
     "Respiration generates ATP.",
-    "DNA repair"
+    "DNA repair should not contribute to diversity, but should repair what is already there."
 ]	
 },
 // =====================================================
@@ -9846,7 +9846,6 @@ const questions = [
     "Most bacteria do not contain chloroplasts."
   ]
 },
-
 {
   question: "What gas is released during photosynthesis?",
   category: "Photosynthesis",
@@ -9885,7 +9884,6 @@ const questions = [
     "ATP serves as an energy carrier."
   ]
 },
-
 {
   question: "What happens to water during the light reactions of photosynthesis?",
   category: "Photosynthesis",
@@ -9905,7 +9903,6 @@ const questions = [
     "Water is not transported to the nucleus as part of photosynthesis."
   ]
 },
-
 {
   question: "During photosynthesis, oxygen is produced from:",
   category: "Photosynthesis",
@@ -9925,7 +9922,6 @@ const questions = [
     "ATP is an energy carrier and does not generate oxygen."
   ]
 },
-
 {
   question: "What is the function of chlorophyll in photosynthesis?",
   category: "Photosynthesis",
@@ -9945,7 +9941,6 @@ const questions = [
     "Breaking down glucose is part of cellular respiration."
   ]
 },
-
 {
   question: "Which statement correctly compares photosynthesis and cellular respiration?",
   category: "Photosynthesis",
@@ -9984,7 +9979,6 @@ const questions = [
     "Carbon fixation occurs in the Calvin cycle."
   ]
 },
-
 {
   question: "Where do the light-dependent reactions occur?",
   category: "Photosynthesis",
@@ -10004,7 +9998,6 @@ const questions = [
     "The mitochondrial matrix is associated with cellular respiration."
   ]
 },
-
 {
   question: "What is the primary role of ATP produced during the light reactions?",
   category: "Photosynthesis",
@@ -10024,7 +10017,6 @@ const questions = [
     "Water splitting occurs before ATP is produced."
   ]
 },
-
 {
   question: "What is the primary role of NADPH in photosynthesis?",
   category: "Photosynthesis",
@@ -10044,7 +10036,6 @@ const questions = [
     "NADPH does not split carbon dioxide."
   ]
 },
-
 {
   question: "What process directly produces oxygen during photosynthesis?",
   category: "Photosynthesis",
@@ -10064,7 +10055,6 @@ const questions = [
     "ATP hydrolysis releases energy but not oxygen."
   ]
 },
-
 {
   question: "Which stage of photosynthesis uses carbon dioxide as a reactant?",
   category: "Photosynthesis",
@@ -10084,7 +10074,6 @@ const questions = [
     "Photolysis refers to water splitting."
   ]
 },
-
 {
   question: "Where does the Calvin cycle occur?",
   category: "Photosynthesis",
@@ -10104,7 +10093,6 @@ const questions = [
     "The cell membrane is not the primary site."
   ]
 },
-
 {
   question: "What is carbon fixation?",
   category: "Photosynthesis",
@@ -10124,7 +10112,6 @@ const questions = [
     "ATP production occurs primarily during the light reactions."
   ]
 },
-
 {
   question: "Which enzyme plays a major role in carbon fixation?",
   category: "Photosynthesis",
@@ -10144,7 +10131,6 @@ const questions = [
     "Ligase joins DNA fragments."
   ]
 },
-
 {
   question: "A researcher blocks ATP production during the light reactions. Which process will be affected most directly?",
   category: "Photosynthesis",
@@ -10183,7 +10169,6 @@ const questions = [
     "Oxygen production occurs during the light reactions."
   ]
 },
-
 {
   question: "Which molecules produced during the light reactions are used directly by the Calvin cycle?",
   category: "Photosynthesis",
@@ -10203,7 +10188,6 @@ const questions = [
     "These molecules are associated with cellular respiration."
   ]
 },
-
 {
   question: "Why is ATP required during the Calvin cycle?",
   category: "Photosynthesis",
@@ -10223,7 +10207,6 @@ const questions = [
     "ATP is not used to transport oxygen."
   ]
 },
-
 {
   question: "What would happen most directly if chlorophyll could no longer absorb light?",
   category: "Photosynthesis",
@@ -10243,7 +10226,6 @@ const questions = [
     "Cellular respiration can still occur."
   ]
 },
-
 {
   question: "A scientist blocks carbon dioxide from entering a leaf. Which process would be most directly affected?",
   category: "Photosynthesis",
@@ -10263,7 +10245,6 @@ const questions = [
     "ATP production is part of the light reactions."
   ]
 },
-
 {
   question: "Which statement best explains the relationship between the light reactions and the Calvin cycle?",
   category: "Photosynthesis",
@@ -10283,7 +10264,6 @@ const questions = [
     "Oxygen is produced during the light reactions."
   ]
 },
-
 {
   question: "A researcher traces carbon atoms from atmospheric carbon dioxide. Where are those atoms most likely found after photosynthesis?",
   category: "Photosynthesis",
@@ -10303,7 +10283,6 @@ const questions = [
     "Carbon fixation primarily contributes to sugar production."
   ]
 },
-
 {
   question: "Why is Rubisco considered an important enzyme?",
   category: "Photosynthesis",
@@ -10323,7 +10302,6 @@ const questions = [
     "Water splitting occurs elsewhere in photosynthesis."
   ]
 },
-
 {
   question: "If ATP production in the light reactions stopped completely, what would happen to the Calvin cycle?",
   category: "Photosynthesis",
@@ -10343,7 +10321,6 @@ const questions = [
     "The Calvin cycle does not transform into respiration."
   ]
 },
-
 {
   question: "A chloroplast has fully functioning light reactions but a defective Calvin cycle. Which molecule would still be produced directly?",
   category: "Photosynthesis",
@@ -10382,7 +10359,6 @@ const questions = [
     "ATP phosphate groups are not built from atmospheric carbon."
   ]
 },
-
 {
   question: "A mutation prevents water from being split during the light reactions. Which outcome is most likely?",
   category: "Photosynthesis",
@@ -10402,7 +10378,6 @@ const questions = [
     "Respiration is a separate pathway."
   ]
 },
-
 {
   question: "A plant is placed in complete darkness but continues to receive water and carbon dioxide. Which process stops first?",
   category: "Photosynthesis",
@@ -10422,7 +10397,6 @@ const questions = [
     "Mineral uptake can continue without light."
   ]
 },
-
 {
   question: "A researcher discovers a mutant plant that cannot produce NADPH. Which process would be affected most directly?",
   category: "Photosynthesis",
@@ -10442,7 +10416,6 @@ const questions = [
     "The Calvin cycle is affected first."
   ]
 },
-
 {
   question: "A student claims that plants obtain most of their mass from soil minerals. Which statement best corrects this misconception?",
   category: "Photosynthesis",
@@ -10462,7 +10435,6 @@ const questions = [
     "ATP stores energy but does not provide most plant mass."
   ]
 },
-
 {
   question: "A chloroplast can perform the light reactions normally but cannot carry out carbon fixation. Which molecule would still be produced directly?",
   category: "Photosynthesis",
@@ -10482,7 +10454,6 @@ const questions = [
     "Starch synthesis depends on sugars produced during photosynthesis."
   ]
 },
-
 {
   question: "Which statement best describes the relationship between photosynthesis and cellular respiration?",
   category: "Photosynthesis",
@@ -10502,7 +10473,6 @@ const questions = [
     "The two pathways produce different products."
   ]
 },
-
 {
   question: "A researcher measures oxygen production in a leaf and finds it has dropped dramatically, while carbon dioxide levels remain unchanged. Which process is most likely impaired?",
   category: "Photosynthesis",
@@ -10522,7 +10492,6 @@ const questions = [
     "Fermentation is unrelated to oxygen production in photosynthesis."
   ]
 },
-
 {
   question: "A plant receives abundant light but no carbon dioxide. Which process can still continue directly?",
   category: "Photosynthesis",
@@ -10542,7 +10511,6 @@ const questions = [
     "The Calvin cycle depends on carbon dioxide availability."
   ]
 },
-
 {
   question: "A scientist compares two identical plants. One receives sunlight, water, and carbon dioxide. The other receives sunlight and water but no carbon dioxide. Which difference is most likely after several days?",
   category: "Photosynthesis",
@@ -10561,5 +10529,5 @@ const questions = [
     "Photosynthesis would be limited without carbon dioxide.",
     "Glucose production would differ significantly."
   ]
-},
+}
 ]
