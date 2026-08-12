@@ -8040,5 +8040,2526 @@ const questions = [
     "Replication does not refute the claim.",
     "Protein synthesis is unrelated."
   ]
-}
+},
+{
+  question: "What is the primary purpose of cellular respiration?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "To produce glucose",
+    "To capture energy from food in ATP",
+    "To build proteins",
+    "To synthesize DNA"
+  ],
+  correct: 1,
+  explanations: [
+    "Cellular respiration consumes glucose rather than producing it.",
+    "Cellular respiration transfers energy stored in food molecules into ATP.",
+    "Protein synthesis is a separate cellular process.",
+    "DNA synthesis serves a different cellular function."
+  ]
+},
+
+{
+  question: "Which molecule serves as the immediate energy currency of the cell?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "DNA",
+    "ATP",
+    "Glucose",
+    "RNA"
+  ],
+  correct: 1,
+  explanations: [
+    "DNA stores genetic information rather than serving as the cell's energy currency.",
+    "ATP is the primary molecule used to power cellular work.",
+    "Glucose stores energy but is not the immediate energy currency.",
+    "RNA functions primarily in gene expression."
+  ]
+},
+
+{
+  question: "Which process is the first stage of cellular respiration?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Citric acid cycle",
+    "Electron transport chain",
+    "Fermentation",
+    "Glycolysis"
+  ],
+  correct: 3,
+  explanations: [
+    "The citric acid cycle occurs after glycolysis.",
+    "The electron transport chain is the final stage of aerobic respiration.",
+    "Fermentation is an alternative pathway that follows glycolysis under certain conditions.",
+    "Glycolysis is the first stage of cellular respiration."
+  ]
+},
+
+{
+  question: "Where does glycolysis occur in eukaryotic cells?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Mitochondrial matrix",
+    "Cytoplasm",
+    "Nucleus",
+    "Golgi apparatus"
+  ],
+  correct: 1,
+  explanations: [
+    "The mitochondrial matrix is where the citric acid cycle occurs.",
+    "Glycolysis occurs in the cytoplasm.",
+    "The nucleus stores genetic information.",
+    "The Golgi apparatus modifies and sorts cellular products."
+  ]
+},
+
+{
+  question: "What molecule is broken down during glycolysis?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "ATP",
+    "Protein",
+    "Glucose",
+    "DNA"
+  ],
+  correct: 2,
+  explanations: [
+    "ATP is consumed and produced during glycolysis but is not the starting fuel molecule.",
+    "Proteins are not the primary substrate of glycolysis.",
+    "Glycolysis begins with the breakdown of glucose.",
+    "DNA is not used as a fuel source during glycolysis."
+  ]
+},
+
+{
+  question: "How many pyruvate molecules are produced from one glucose molecule during glycolysis?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "1",
+    "2",
+    "4",
+    "6"
+  ],
+  correct: 1,
+  explanations: [
+    "A glucose molecule is split into two products.",
+    "One glucose molecule yields two pyruvate molecules.",
+    "Four pyruvate molecules are not produced from a single glucose.",
+    "Six pyruvate molecules greatly exceeds the actual output."
+  ]
+},
+
+{
+  question: "What is the net ATP gain from glycolysis per glucose molecule?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "1 ATP",
+    "2 ATP",
+    "4 ATP",
+    "36 ATP"
+  ],
+  correct: 1,
+  explanations: [
+    "The net ATP gain is greater than one ATP.",
+    "Glycolysis produces a net gain of 2 ATP per glucose.",
+    "Four ATP are produced, but two ATP are invested earlier in the pathway.",
+    "This value is far greater than the ATP produced by glycolysis alone."
+  ]
+},
+
+{
+  question: "Does glycolysis require oxygen directly?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Yes",
+    "No",
+    "Only in plants",
+    "Only in animals"
+  ],
+  correct: 1,
+  explanations: [
+    "Oxygen is not directly required for glycolysis.",
+    "Glycolysis can occur in both the presence and absence of oxygen.",
+    "Plants and many other organisms perform glycolysis.",
+    "Animals are not unique in carrying out glycolysis."
+  ]
+},
+
+{
+  question: "Which electron carrier is produced during glycolysis?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "ATP",
+    "Carbon dioxide",
+    "NADH",
+    "Oxygen"
+  ],
+  correct: 2,
+  explanations: [
+    "ATP stores energy but is not an electron carrier.",
+    "Carbon dioxide is not produced during glycolysis.",
+    "NADH carries high-energy electrons to later stages of cellular respiration.",
+    "Oxygen is not produced by glycolysis."
+  ]
+},
+
+{
+  question: "A scientist removes all mitochondria from a eukaryotic cell. Which process could still occur?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Citric acid cycle",
+    "Electron transport chain",
+    "Glycolysis",
+    "Chemiosmosis in mitochondria"
+  ],
+  correct: 2,
+  explanations: [
+    "The citric acid cycle occurs in the mitochondrial matrix.",
+    "The electron transport chain requires mitochondrial membranes in eukaryotes.",
+    "Glycolysis occurs in the cytoplasm and can continue without mitochondria.",
+    "Mitochondrial chemiosmosis requires mitochondria to be present."
+  ]
+},
+{
+  question: "Why are two ATP molecules consumed during the early stages of glycolysis?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "To activate glucose for subsequent reactions",
+    "To produce oxygen",
+    "To regenerate NAD+",
+    "To form carbon dioxide"
+  ],
+  correct: 0,
+  explanations: [
+    "ATP investment destabilizes glucose and prepares it for breakdown.",
+    "Oxygen is not produced during glycolysis.",
+    "NAD+ regeneration occurs later under specific conditions.",
+    "Carbon dioxide is not produced during glycolysis."
+  ]
+},
+
+{
+  question: "How many NADH molecules are produced from one glucose molecule during glycolysis?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "1",
+    "2",
+    "4",
+    "6"
+  ],
+  correct: 1,
+  explanations: [
+    "Glycolysis produces more than one NADH per glucose.",
+    "Two NADH molecules are produced during glycolysis.",
+    "Four NADH exceeds the actual yield.",
+    "Six NADH is not produced during glycolysis."
+  ]
+},
+
+{
+  question: "A cell is temporarily deprived of oxygen. Which process can continue producing ATP immediately?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Electron transport chain",
+    "Chemiosmosis",
+    "Glycolysis",
+    "Citric acid cycle"
+  ],
+  correct: 2,
+  explanations: [
+    "The electron transport chain requires oxygen as the final electron acceptor.",
+    "Chemiosmosis depends on the electron transport chain.",
+    "Glycolysis can proceed with or without oxygen.",
+    "The citric acid cycle depends indirectly on oxygen availability."
+  ]
+},
+
+{
+  question: "What is the primary function of fermentation?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Generate large quantities of ATP",
+    "Produce oxygen",
+    "Regenerate NAD+",
+    "Break down DNA"
+  ],
+  correct: 2,
+  explanations: [
+    "Fermentation produces very little ATP.",
+    "Fermentation does not generate oxygen.",
+    "Fermentation regenerates NAD+ so glycolysis can continue.",
+    "DNA is not involved in fermentation."
+  ]
+},
+
+{
+  question: "Which form of fermentation commonly occurs in human muscle cells during intense exercise?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Alcohol fermentation",
+    "Lactic acid fermentation",
+    "Acetic acid fermentation",
+    "Methane fermentation"
+  ],
+  correct: 1,
+  explanations: [
+    "Alcohol fermentation is commonly associated with yeast.",
+    "Human muscle cells perform lactic acid fermentation when oxygen is limited.",
+    "Acetic acid fermentation is not typical of muscle cells.",
+    "Methane fermentation is not performed by human cells."
+  ]
+},
+
+{
+  question: "Which organism commonly uses alcohol fermentation when oxygen is absent?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Yeast",
+    "Humans",
+    "Oak trees",
+    "Earthworms"
+  ],
+  correct: 0,
+  explanations: [
+    "Yeast commonly performs alcohol fermentation.",
+    "Humans primarily perform lactic acid fermentation.",
+    "Plants generally rely on aerobic respiration.",
+    "Earthworms do not commonly perform alcohol fermentation."
+  ]
+},
+
+{
+  question: "What would most likely happen if a cell ran out of available NAD+?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Glycolysis would eventually stop",
+    "ATP production would increase",
+    "Oxygen production would begin",
+    "DNA replication would immediately stop"
+  ],
+  correct: 0,
+  explanations: [
+    "NAD+ is required to accept electrons during glycolysis.",
+    "ATP production would decrease, not increase.",
+    "Cells do not begin producing oxygen under these conditions.",
+    "The immediate problem would be disruption of glycolysis."
+  ]
+},
+
+{
+  question: "Which statement best explains why fermentation is beneficial when oxygen is unavailable?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "It provides more ATP than aerobic respiration",
+    "It regenerates NAD+ needed for glycolysis",
+    "It produces oxygen for the cell",
+    "It activates the citric acid cycle"
+  ],
+  correct: 1,
+  explanations: [
+    "Aerobic respiration produces much more ATP.",
+    "Fermentation allows glycolysis to continue by restoring NAD+.",
+    "Fermentation does not produce oxygen.",
+    "The citric acid cycle does not depend on fermentation activation."
+  ]
+},
+
+{
+  question: "A mutation prevents cells from converting NADH back into NAD+ during fermentation. Which outcome is most likely?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Glycolysis will eventually stop",
+    "ATP production will increase dramatically",
+    "Oxygen production will rise",
+    "The electron transport chain will accelerate"
+  ],
+  correct: 0,
+  explanations: [
+    "Without NAD+, glycolysis cannot continue indefinitely.",
+    "ATP production would decline rather than increase.",
+    "Fermentation does not produce oxygen.",
+    "The mutation affects fermentation, not ETC acceleration."
+  ]
+},
+
+{
+  question: "An athlete is sprinting at maximum intensity and oxygen delivery cannot meet demand. What most directly allows ATP production to continue?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Activation of the citric acid cycle",
+    "Regeneration of NAD+ through lactic acid fermentation",
+    "Increased oxygen consumption",
+    "Activation of ATP synthase"
+  ],
+  correct: 1,
+  explanations: [
+    "The citric acid cycle becomes limited when oxygen is unavailable.",
+    "Lactic acid fermentation restores NAD+ so glycolysis can continue making ATP.",
+    "Oxygen delivery is already insufficient in this scenario.",
+    "ATP synthase requires a functioning electron transport chain."
+  ]
+},
+{
+  question: "What is the immediate fate of pyruvate under aerobic conditions in eukaryotic cells?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "It enters the nucleus",
+    "It is converted to acetyl-CoA",
+    "It becomes glucose",
+    "It directly enters the electron transport chain"
+  ],
+  correct: 1,
+  explanations: [
+    "Pyruvate is transported into the mitochondrion rather than the nucleus.",
+    "Pyruvate is converted into acetyl-CoA before entering the citric acid cycle.",
+    "Pyruvate is typically broken down further rather than immediately converted back into glucose.",
+    "Electrons, not pyruvate, enter the electron transport chain."
+  ]
+},
+
+{
+  question: "In which part of the mitochondrion does pyruvate oxidation occur?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Outer membrane",
+    "Inner membrane",
+    "Matrix",
+    "Intermembrane space"
+  ],
+  correct: 2,
+  explanations: [
+    "Pyruvate oxidation does not occur in the outer membrane.",
+    "The inner membrane houses the electron transport chain.",
+    "Pyruvate oxidation occurs within the mitochondrial matrix.",
+    "The intermembrane space primarily functions in proton accumulation."
+  ]
+},
+
+{
+  question: "What molecule enters the citric acid cycle directly?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Glucose",
+    "Pyruvate",
+    "Acetyl-CoA",
+    "ATP"
+  ],
+  correct: 2,
+  explanations: [
+    "Glucose is broken down during glycolysis before reaching the cycle.",
+    "Pyruvate must first be converted into acetyl-CoA.",
+    "Acetyl-CoA is the molecule that enters the citric acid cycle.",
+    "ATP is an energy carrier rather than a cycle input."
+  ]
+},
+
+{
+  question: "Which molecule is released during pyruvate oxidation?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Oxygen",
+    "Carbon dioxide",
+    "Water",
+    "Glucose"
+  ],
+  correct: 1,
+  explanations: [
+    "Oxygen is consumed later in respiration.",
+    "Pyruvate oxidation releases carbon dioxide.",
+    "Water is primarily produced near the end of aerobic respiration.",
+    "Glucose is not produced during pyruvate oxidation."
+  ]
+},
+
+{
+  question: "Which electron carrier is produced during pyruvate oxidation?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "NADH",
+    "ATP",
+    "FADH₂",
+    "Oxygen"
+  ],
+  correct: 0,
+  explanations: [
+    "NADH is produced as electrons are removed from pyruvate derivatives.",
+    "ATP is not the primary product of pyruvate oxidation.",
+    "FADH₂ is produced later in the citric acid cycle.",
+    "Oxygen is neither produced nor carried as an electron carrier."
+  ]
+},
+
+{
+  question: "What is the primary function of the citric acid cycle?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Produce glucose",
+    "Generate electron carriers for the ETC",
+    "Create oxygen",
+    "Regenerate pyruvate"
+  ],
+  correct: 1,
+  explanations: [
+    "The citric acid cycle breaks down carbon-containing molecules rather than producing glucose.",
+    "A major role of the cycle is generating NADH and FADH₂ for later ATP production.",
+    "Oxygen is not generated by the citric acid cycle.",
+    "Pyruvate is not regenerated by the cycle."
+  ]
+},
+
+{
+  question: "Where does the citric acid cycle occur in eukaryotic cells?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Cytoplasm",
+    "Mitochondrial matrix",
+    "Golgi apparatus",
+    "Nucleus"
+  ],
+  correct: 1,
+  explanations: [
+    "Glycolysis occurs in the cytoplasm.",
+    "The citric acid cycle occurs within the mitochondrial matrix.",
+    "The Golgi apparatus sorts cellular products.",
+    "The nucleus stores genetic information."
+  ]
+},
+
+{
+  question: "Which of the following is produced by the citric acid cycle?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "NADH",
+    "Glucose",
+    "DNA",
+    "Oxygen"
+  ],
+  correct: 0,
+  explanations: [
+    "The citric acid cycle produces NADH that carries electrons to the ETC.",
+    "Glucose is not produced by the cycle.",
+    "DNA synthesis is unrelated to the citric acid cycle.",
+    "Oxygen is consumed later in respiration rather than produced."
+  ]
+},
+
+{
+  question: "Why is carbon dioxide produced during the citric acid cycle?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Carbon atoms are removed from organic molecules",
+    "ATP breaks apart carbon dioxide",
+    "Oxygen is transformed into carbon dioxide",
+    "Water is converted into carbon dioxide"
+  ],
+  correct: 0,
+  explanations: [
+    "Carbon dioxide forms as carbon atoms are removed from acetyl-CoA derivatives.",
+    "ATP does not create carbon dioxide.",
+    "Oxygen acts as an electron acceptor rather than transforming directly into carbon dioxide.",
+    "Water is not the source of the carbon released."
+  ]
+},
+
+{
+  question: "A scientist labels all carbon atoms in a glucose molecule with a radioactive marker. During aerobic respiration, where will many of those labeled carbon atoms eventually be found?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "In oxygen molecules",
+    "In ATP phosphate groups",
+    "In carbon dioxide released during respiration",
+    "In the proton gradient"
+  ],
+  correct: 2,
+  explanations: [
+    "Carbon atoms do not become oxygen molecules.",
+    "ATP phosphate groups originate from phosphate, not glucose carbon.",
+    "Carbon from glucose is ultimately released as carbon dioxide during pyruvate oxidation and the citric acid cycle.",
+    "The proton gradient involves hydrogen ions, not carbon atoms."
+  ]
+},
+{
+  question: "Which stage of cellular respiration produces the greatest amount of ATP?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Glycolysis",
+    "Fermentation",
+    "Citric acid cycle",
+    "Electron transport chain"
+  ],
+  correct: 3,
+  explanations: [
+    "Glycolysis produces only a small amount of ATP.",
+    "Fermentation does not generate significant additional ATP.",
+    "The citric acid cycle produces relatively little ATP directly.",
+    "Most ATP is generated during oxidative phosphorylation involving the electron transport chain."
+  ]
+},
+
+{
+  question: "Where is the electron transport chain located in eukaryotic cells?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Cytoplasm",
+    "Outer mitochondrial membrane",
+    "Inner mitochondrial membrane",
+    "Nucleus"
+  ],
+  correct: 2,
+  explanations: [
+    "The cytoplasm is the site of glycolysis.",
+    "The ETC is not embedded in the outer membrane.",
+    "The electron transport chain is located in the inner mitochondrial membrane.",
+    "The nucleus is not involved in cellular respiration."
+  ]
+},
+
+{
+  question: "What is the primary role of NADH in cellular respiration?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Carry electrons to the electron transport chain",
+    "Transport oxygen through the bloodstream",
+    "Directly produce glucose",
+    "Act as ATP synthase"
+  ],
+  correct: 0,
+  explanations: [
+    "NADH delivers high-energy electrons to the electron transport chain.",
+    "Hemoglobin transports oxygen, not NADH.",
+    "NADH does not synthesize glucose.",
+    "ATP synthase is a membrane protein, not an electron carrier."
+  ]
+},
+
+{
+  question: "What is the primary role of FADH₂ during cellular respiration?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Transport carbon dioxide",
+    "Donate electrons to the electron transport chain",
+    "Convert glucose to pyruvate",
+    "Generate oxygen"
+  ],
+  correct: 1,
+  explanations: [
+    "FADH₂ does not transport carbon dioxide.",
+    "FADH₂ carries electrons to the electron transport chain.",
+    "Glycolysis converts glucose to pyruvate.",
+    "Cellular respiration consumes oxygen rather than producing it."
+  ]
+},
+
+{
+  question: "What is the final electron acceptor in aerobic cellular respiration?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "ATP",
+    "NADH",
+    "Carbon dioxide",
+    "Oxygen"
+  ],
+  correct: 3,
+  explanations: [
+    "ATP stores energy but does not accept electrons at the end of the ETC.",
+    "NADH donates electrons rather than accepting them.",
+    "Carbon dioxide is a waste product.",
+    "Oxygen accepts electrons at the end of the electron transport chain."
+  ]
+},
+
+{
+  question: "What is produced when oxygen accepts electrons and hydrogen ions at the end of the electron transport chain?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Carbon dioxide",
+    "Water",
+    "Glucose",
+    "Pyruvate"
+  ],
+  correct: 1,
+  explanations: [
+    "Carbon dioxide is produced earlier in respiration.",
+    "Oxygen combines with electrons and hydrogen ions to form water.",
+    "Glucose is not produced during respiration.",
+    "Pyruvate is generated during glycolysis."
+  ]
+},
+
+{
+  question: "What is the immediate result of electron movement through the electron transport chain?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Carbon dioxide is pumped across the membrane",
+    "Protons are pumped across the inner mitochondrial membrane",
+    "Glucose is synthesized",
+    "Oxygen is produced"
+  ],
+  correct: 1,
+  explanations: [
+    "Carbon dioxide is not pumped across the membrane by the ETC.",
+    "Electron transfer provides energy to pump protons across the membrane.",
+    "Glucose synthesis is unrelated to the ETC.",
+    "Oxygen is consumed rather than produced."
+  ]
+},
+
+{
+  question: "What is chemiosmosis?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "The breakdown of glucose",
+    "The movement of protons through ATP synthase",
+    "The synthesis of carbon dioxide",
+    "The conversion of pyruvate into acetyl-CoA"
+  ],
+  correct: 1,
+  explanations: [
+    "Glucose breakdown occurs during glycolysis.",
+    "Chemiosmosis involves protons flowing through ATP synthase to generate ATP.",
+    "Carbon dioxide production occurs during pyruvate oxidation and the citric acid cycle.",
+    "Pyruvate oxidation is a separate process."
+  ]
+},
+
+{
+  question: "What directly powers ATP synthase?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Glucose molecules",
+    "Carbon dioxide",
+    "A proton gradient",
+    "DNA replication"
+  ],
+  correct: 2,
+  explanations: [
+    "Glucose provides the original energy source but does not directly power ATP synthase.",
+    "Carbon dioxide is a waste product.",
+    "ATP synthase is powered by the flow of protons down their electrochemical gradient.",
+    "DNA replication is unrelated."
+  ]
+},
+
+{
+  question: "A toxin prevents protons from moving through ATP synthase. Which outcome is most likely?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "ATP production decreases dramatically",
+    "Glycolysis stops immediately",
+    "Pyruvate production increases indefinitely",
+    "Carbon dioxide is no longer produced"
+  ],
+  correct: 0,
+  explanations: [
+    "Without proton flow through ATP synthase, most ATP cannot be generated.",
+    "Glycolysis can still occur independently.",
+    "Pyruvate production is not indefinitely increased by this toxin.",
+    "Carbon dioxide can still be produced during earlier stages of respiration."
+  ]
+},
+{
+  question: "A toxin prevents oxygen from accepting electrons at the end of the electron transport chain. What will happen first?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "NADH will begin to accumulate",
+    "Glucose will be produced",
+    "The citric acid cycle will speed up",
+    "ATP synthase activity will increase"
+  ],
+  correct: 0,
+  explanations: [
+    "Without oxygen accepting electrons, NADH cannot unload its electrons and begins to accumulate.",
+    "Glucose is not produced by cellular respiration.",
+    "The citric acid cycle will eventually slow because electron carriers cannot be regenerated.",
+    "ATP synthase activity decreases rather than increases."
+  ]
+},
+
+{
+  question: "Why is oxygen considered essential for aerobic respiration?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "It directly powers ATP synthase",
+    "It serves as the final electron acceptor",
+    "It splits glucose molecules",
+    "It produces NADH"
+  ],
+  correct: 1,
+  explanations: [
+    "ATP synthase is powered by a proton gradient.",
+    "Oxygen is required because it accepts electrons at the end of the ETC.",
+    "Glycolysis splits glucose.",
+    "NADH is produced earlier in respiration."
+  ]
+},
+
+{
+  question: "A cell suddenly runs out of oxygen. Which process stops most directly as a result?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Glycolysis",
+    "Electron transport chain",
+    "Fermentation",
+    "Pyruvate oxidation"
+  ],
+  correct: 1,
+  explanations: [
+    "Glycolysis can continue temporarily.",
+    "The ETC requires oxygen as the final electron acceptor.",
+    "Fermentation often increases when oxygen becomes unavailable.",
+    "Pyruvate oxidation is affected indirectly rather than immediately."
+  ]
+},
+
+{
+  question: "What happens to the proton gradient if the electron transport chain stops functioning?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "It becomes steeper",
+    "It remains unchanged indefinitely",
+    "It gradually dissipates",
+    "It converts into ATP directly"
+  ],
+  correct: 2,
+  explanations: [
+    "No new protons are being pumped.",
+    "The gradient cannot persist indefinitely without maintenance.",
+    "Without proton pumping, the gradient gradually disappears.",
+    "The gradient itself does not become ATP."
+  ]
+},
+
+{
+  question: "A mutation prevents NADH from delivering electrons to the electron transport chain. Which outcome is most likely?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "ATP production decreases substantially",
+    "Glucose production increases",
+    "Carbon dioxide production stops immediately",
+    "Fermentation becomes impossible"
+  ],
+  correct: 0,
+  explanations: [
+    "The ETC relies heavily on electrons supplied by NADH.",
+    "Respiration does not promote glucose synthesis.",
+    "Carbon dioxide production may continue temporarily in earlier pathways.",
+    "Fermentation can still occur."
+  ]
+},
+
+{
+  question: "Which stage of cellular respiration directly creates the proton gradient used by ATP synthase?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Glycolysis",
+    "Citric acid cycle",
+    "Electron transport chain",
+    "Fermentation"
+  ],
+  correct: 2,
+  explanations: [
+    "Glycolysis does not pump protons across a membrane.",
+    "The citric acid cycle produces electron carriers but not the gradient itself.",
+    "The ETC uses electron energy to pump protons across the membrane.",
+    "Fermentation does not establish a proton gradient."
+  ]
+},
+
+{
+  question: "Which statement best explains why the electron transport chain produces large amounts of ATP?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "It directly transfers phosphate groups to ATP",
+    "It stores glucose inside mitochondria",
+    "It generates a proton gradient that powers ATP synthase",
+    "It converts ATP into NADH"
+  ],
+  correct: 2,
+  explanations: [
+    "Direct substrate-level phosphorylation is not the primary ATP source here.",
+    "Glucose storage is unrelated.",
+    "The ETC establishes the proton gradient that drives ATP synthase.",
+    "ATP is not converted into NADH."
+  ]
+},
+
+{
+  question: "Researchers observe that oxygen consumption continues, but ATP production has nearly stopped. Which structure is most likely defective?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "ATP synthase",
+    "Glucose",
+    "Pyruvate",
+    "The nucleus"
+  ],
+  correct: 0,
+  explanations: [
+    "If ATP synthase is nonfunctional, oxygen consumption may continue while ATP production collapses.",
+    "Glucose is not a cellular structure.",
+    "Pyruvate is a molecule rather than the likely target in this scenario.",
+    "The nucleus is not directly responsible for ATP production."
+  ]
+},
+
+{
+  question: "A chemical allows protons to cross the inner mitochondrial membrane without passing through ATP synthase. What would happen?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "ATP production would decrease",
+    "ATP production would increase",
+    "Glycolysis would immediately stop",
+    "Carbon dioxide production would cease"
+  ],
+  correct: 0,
+  explanations: [
+    "Bypassing ATP synthase eliminates the mechanism used to harvest energy from the proton gradient.",
+    "ATP production would not increase.",
+    "Glycolysis can still function.",
+    "Carbon dioxide production is not directly affected."
+  ]
+},
+
+{
+  question: "Which event provides the strongest evidence that aerobic respiration has shifted toward fermentation?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "An increase in lactic acid production",
+    "An increase in oxygen consumption",
+    "An increase in ATP synthase activity",
+    "An increase in proton pumping"
+  ],
+  correct: 0,
+  explanations: [
+    "Lactic acid accumulation indicates that fermentation is occurring.",
+    "Oxygen consumption is characteristic of aerobic respiration.",
+    "ATP synthase activity is associated with oxidative phosphorylation.",
+    "Proton pumping occurs in the electron transport chain."
+  ]
+},
+{
+  question: "A mutation prevents pyruvate from entering the mitochondrion. Which process would continue normally?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Citric acid cycle",
+    "Electron transport chain",
+    "Glycolysis",
+    "Pyruvate oxidation"
+  ],
+  correct: 2,
+  explanations: [
+    "The citric acid cycle requires mitochondrial pyruvate processing.",
+    "The ETC would eventually be deprived of electron carriers.",
+    "Glycolysis occurs in the cytoplasm and can continue independently.",
+    "Pyruvate oxidation requires pyruvate to reach the mitochondrion."
+  ]
+},
+
+{
+  question: "A researcher measures a sudden decrease in NAD+ and a simultaneous increase in NADH. Which cellular process would be expected to slow first?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Glycolysis",
+    "DNA replication",
+    "Protein synthesis",
+    "Cell division"
+  ],
+  correct: 0,
+  explanations: [
+    "Glycolysis requires NAD+ as an electron acceptor.",
+    "DNA replication is not immediately limited by NAD+ availability.",
+    "Protein synthesis does not directly depend on NAD+ regeneration.",
+    "Cell division would be affected indirectly rather than first."
+  ]
+},
+
+{
+  question: "A cell can perform glycolysis and the citric acid cycle but cannot operate its electron transport chain. Which molecules would most likely accumulate?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "ATP and oxygen",
+    "NADH and FADH₂",
+    "Carbon dioxide and water",
+    "Glucose and oxygen"
+  ],
+  correct: 1,
+  explanations: [
+    "ATP production would decrease dramatically.",
+    "Electron carriers would accumulate because they cannot unload their electrons into the ETC.",
+    "Water production would decrease.",
+    "Glucose and oxygen are not expected to accumulate for this reason."
+  ]
+},
+
+{
+  question: "A poison blocks ATP synthase but leaves the electron transport chain functional. Which outcome is most likely?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "ATP production decreases dramatically",
+    "Glycolysis immediately stops",
+    "Glucose production increases",
+    "Carbon dioxide production doubles"
+  ],
+  correct: 0,
+  explanations: [
+    "ATP synthase is responsible for producing most ATP during aerobic respiration.",
+    "Glycolysis can continue independently.",
+    "Cellular respiration does not stimulate glucose production.",
+    "Carbon dioxide production would not necessarily double."
+  ]
+},
+
+{
+  question: "A scientist discovers a mutant organism whose mitochondria cannot establish a proton gradient. Which process is most directly affected?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "ATP synthesis by chemiosmosis",
+    "DNA replication",
+    "Protein synthesis",
+    "Glycolysis"
+  ],
+  correct: 0,
+  explanations: [
+    "A proton gradient is required to power ATP synthase.",
+    "DNA replication does not depend directly on the proton gradient.",
+    "Protein synthesis is indirectly affected by ATP shortages.",
+    "Glycolysis occurs independently in the cytoplasm."
+  ]
+},
+
+{
+  question: "A student claims that carbon atoms from glucose are converted directly into ATP molecules. Which statement best corrects this misconception?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Most carbon atoms from glucose are released as carbon dioxide",
+    "Carbon atoms become oxygen",
+    "Carbon atoms become phosphate groups",
+    "Carbon atoms become proton gradients"
+  ],
+  correct: 0,
+  explanations: [
+    "Carbon from glucose is eventually released as carbon dioxide during respiration.",
+    "Carbon atoms do not become oxygen atoms.",
+    "Carbon atoms do not become phosphate groups.",
+    "Proton gradients involve hydrogen ions, not glucose carbon."
+  ]
+},
+
+{
+  question: "Two populations of cells are supplied equal amounts of glucose. One population has oxygen available, and the other does not. Which population will generally produce more ATP per glucose molecule?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "The population without oxygen",
+    "The population with oxygen",
+    "Both populations produce the same amount",
+    "ATP production cannot be predicted"
+  ],
+  correct: 1,
+  explanations: [
+    "Cells lacking oxygen rely heavily on glycolysis and fermentation.",
+    "Aerobic respiration generates far more ATP than fermentation alone.",
+    "ATP yields differ greatly.",
+    "ATP production can be predicted based on oxygen availability."
+  ]
+},
+
+{
+  question: "An experimental drug prevents the conversion of pyruvate into acetyl-CoA. Which stage of cellular respiration is affected most directly?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Citric acid cycle",
+    "Glycolysis",
+    "Fermentation",
+    "DNA replication"
+  ],
+  correct: 0,
+  explanations: [
+    "Acetyl-CoA is required for entry into the citric acid cycle.",
+    "Glycolysis occurs before pyruvate oxidation.",
+    "Fermentation does not require acetyl-CoA.",
+    "DNA replication is unrelated."
+  ]
+},
+
+{
+  question: "A researcher traces oxygen atoms entering a cell during aerobic respiration. Where are those oxygen atoms most likely found at the end of the process?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Glucose",
+    "Pyruvate",
+    "Water",
+    "ATP"
+  ],
+  correct: 2,
+  explanations: [
+    "Glucose is being broken down rather than synthesized.",
+    "Pyruvate is produced much earlier in respiration.",
+    "Oxygen serves as the final electron acceptor and contributes to water formation.",
+    "ATP does not contain oxygen atoms derived specifically from inhaled oxygen."
+  ]
+},
+
+{
+  question: "A cell produces normal amounts of pyruvate, acetyl-CoA, and NADH, yet ATP production remains extremely low. Which explanation is most consistent with these observations?",
+  category: "Cellular Respiration",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "A malfunctioning ATP synthase",
+    "A nonfunctional glycolysis pathway",
+    "An inability to break down glucose",
+    "A defect in pyruvate formation"
+  ],
+  correct: 0,
+  explanations: [
+    "Upstream pathways appear functional, suggesting a defect in oxidative phosphorylation.",
+    "Glycolysis is clearly functioning because pyruvate is produced.",
+    "Glucose is obviously being broken down if pyruvate and NADH are being generated.",
+    "Pyruvate formation is occurring normally."
+  ]
+},
+{
+  question: "Which characteristic is shared by all fungi?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Photosynthesis",
+    "Cell walls composed of chitin",
+    "Motility throughout life",
+    "Prokaryotic cell structure"
+  ],
+  correct: 1,
+  explanations: [
+    "Fungi do not perform photosynthesis.",
+    "Chitin is a defining component of fungal cell walls.",
+    "Most fungi are not motile.",
+    "Fungi are eukaryotes, not prokaryotes."
+  ]
+},
+
+{
+  question: "Fungi are classified as:",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Prokaryotes",
+    "Eukaryotes",
+    "Archaea",
+    "Viruses"
+  ],
+  correct: 1,
+  explanations: [
+    "Fungi contain a nucleus and membrane-bound organelles.",
+    "Fungi are eukaryotic organisms.",
+    "Archaea are prokaryotes.",
+    "Viruses are not considered living cells."
+  ]
+},
+
+{
+  question: "How do fungi obtain nutrients?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Photosynthesis",
+    "Ingestion of food particles",
+    "Absorption following external digestion",
+    "Nitrogen fixation"
+  ],
+  correct: 2,
+  explanations: [
+    "Fungi do not make their own food through photosynthesis.",
+    "Animals primarily ingest food.",
+    "Fungi secrete enzymes and absorb the resulting nutrients.",
+    "Most fungi do not obtain energy this way."
+  ]
+},
+
+{
+  question: "What is a hypha?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "A fungal spore",
+    "A threadlike fungal filament",
+    "A photosynthetic cell",
+    "A reproductive organ in plants"
+  ],
+  correct: 1,
+  explanations: [
+    "Spores are reproductive structures.",
+    "Hyphae are long, threadlike structures that make up fungal bodies.",
+    "Fungi are not photosynthetic.",
+    "Hyphae are not plant structures."
+  ]
+},
+
+{
+  question: "A mass of intertwined hyphae is called:",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Mycelium",
+    "Spore",
+    "Fruiting body",
+    "Lichen"
+  ],
+  correct: 0,
+  explanations: [
+    "A mycelium is a network of fungal hyphae.",
+    "Spores are reproductive cells.",
+    "A fruiting body is a specialized reproductive structure.",
+    "A lichen is a symbiotic association."
+  ]
+},
+
+{
+  question: "What is the ecological role of many fungi?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Primary producers",
+    "Decomposers",
+    "Nitrogen-fixing bacteria",
+    "Predators"
+  ],
+  correct: 1,
+  explanations: [
+    "Fungi are not primary producers.",
+    "Many fungi function as decomposers that recycle nutrients.",
+    "Fungi are not bacteria.",
+    "Predation is not their primary ecological role."
+  ]
+},
+
+{
+  question: "What substance is a major component of fungal cell walls?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Cellulose",
+    "Peptidoglycan",
+    "Chitin",
+    "Keratin"
+  ],
+  correct: 2,
+  explanations: [
+    "Cellulose is a major component of plant cell walls.",
+    "Peptidoglycan is found in bacterial cell walls.",
+    "Chitin is characteristic of fungal cell walls.",
+    "Keratin is found in animal tissues."
+  ]
+},
+
+{
+  question: "Fungi reproduce using structures called:",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Seeds",
+    "Spores",
+    "Flowers",
+    "Cones"
+  ],
+  correct: 1,
+  explanations: [
+    "Seeds are produced by many plants.",
+    "Fungi commonly reproduce through spores.",
+    "Flowers are plant reproductive structures.",
+    "Cones are found in gymnosperms."
+  ]
+},
+
+{
+  question: "Which of the following is a fungus?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Mushroom",
+    "Fern",
+    "Moss",
+    "Pine tree"
+  ],
+  correct: 0,
+  explanations: [
+    "Mushrooms are reproductive structures of fungi.",
+    "Ferns are plants.",
+    "Mosses are plants.",
+    "Pine trees are plants."
+  ]
+},
+
+{
+  question: "Why are fungi important in ecosystems?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "They produce most atmospheric oxygen",
+    "They recycle nutrients through decomposition",
+    "They perform cellular respiration for other organisms",
+    "They replace bacteria in ecosystems"
+  ],
+  correct: 1,
+  explanations: [
+    "Photosynthetic organisms produce most atmospheric oxygen.",
+    "Fungi help recycle nutrients by breaking down dead organic matter.",
+    "All organisms perform their own cellular respiration.",
+    "Fungi do not replace bacteria."
+  ]
+},
+{
+  question: "Why are fungal hyphae typically highly branched?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "To increase surface area for nutrient absorption",
+    "To perform photosynthesis more efficiently",
+    "To produce oxygen",
+    "To protect DNA from mutation"
+  ],
+  correct: 0,
+  explanations: [
+    "Highly branched hyphae increase surface area, improving nutrient absorption.",
+    "Fungi do not perform photosynthesis.",
+    "Fungi do not produce oxygen as a major biological function.",
+    "Branching does not primarily protect DNA."
+  ]
+},
+
+{
+  question: "A fungus is observed secreting digestive enzymes onto a fallen log and then absorbing the resulting nutrients. This process is best described as:",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Photosynthesis",
+    "Extracellular digestion",
+    "Cellular respiration",
+    "Nitrogen fixation"
+  ],
+  correct: 1,
+  explanations: [
+    "Fungi do not obtain nutrients through photosynthesis.",
+    "Fungi perform extracellular digestion by breaking down food outside their bodies before absorption.",
+    "Cellular respiration releases energy from nutrients but does not describe nutrient acquisition.",
+    "Most fungi do not perform nitrogen fixation."
+  ]
+},
+
+{
+  question: "A forest ecosystem loses most of its decomposer fungi. Which outcome is most likely?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Dead organic matter accumulates",
+    "Photosynthesis stops",
+    "Plants become fungi",
+    "Oxygen disappears immediately"
+  ],
+  correct: 0,
+  explanations: [
+    "Without fungal decomposers, dead organic material would accumulate and nutrient recycling would slow.",
+    "Plants would continue photosynthesis.",
+    "Plants do not transform into fungi.",
+    "Oxygen would not disappear immediately."
+  ]
+},
+
+{
+  question: "What is the primary advantage of producing spores?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Energy storage",
+    "Dispersal and reproduction",
+    "Photosynthesis",
+    "Nitrogen fixation"
+  ],
+  correct: 1,
+  explanations: [
+    "Spores are not primarily used for energy storage.",
+    "Spores allow fungi to reproduce and spread to new environments.",
+    "Spores do not perform photosynthesis.",
+    "Spores are not involved in nitrogen fixation."
+  ]
+},
+
+{
+  question: "A scientist discovers a fungus growing in close association with plant roots. What is the most likely relationship?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Mycorrhiza",
+    "Lichen",
+    "Predation",
+    "Competition"
+  ],
+  correct: 0,
+  explanations: [
+    "Mycorrhizae are mutually beneficial associations between fungi and plant roots.",
+    "Lichens involve fungi and photosynthetic partners.",
+    "This relationship is typically not predatory.",
+    "Most root-fungus associations benefit both organisms."
+  ]
+},
+
+{
+  question: "How does a plant commonly benefit from a mycorrhizal association?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Improved water and mineral absorption",
+    "Production of oxygen",
+    "DNA replication",
+    "Increased cell division only"
+  ],
+  correct: 0,
+  explanations: [
+    "Fungal hyphae increase the plant's ability to absorb water and nutrients from soil.",
+    "Plants already produce oxygen through photosynthesis.",
+    "DNA replication is not the primary benefit.",
+    "The benefit extends beyond cell division."
+  ]
+},
+
+{
+  question: "In a mycorrhizal relationship, what does the fungus typically receive from the plant?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Sugars produced through photosynthesis",
+    "Chitin",
+    "Spores",
+    "Oxygen as food"
+  ],
+  correct: 0,
+  explanations: [
+    "Plants provide carbohydrates produced during photosynthesis.",
+    "Plants do not normally provide chitin to fungi.",
+    "Spores are reproductive structures.",
+    "Oxygen is not used as food."
+  ]
+},
+
+{
+  question: "What best describes a lichen?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "A fungus living with a photosynthetic partner",
+    "A fungal spore",
+    "A fungal fruiting body",
+    "A decomposing log"
+  ],
+  correct: 0,
+  explanations: [
+    "Lichens are symbiotic associations between fungi and photosynthetic organisms such as algae or cyanobacteria.",
+    "A lichen is much more complex than a single spore.",
+    "Lichens are not fruiting bodies.",
+    "A decomposing log is merely a substrate."
+  ]
+},
+
+{
+  question: "Which statement best explains why fungi are effective decomposers?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "They secrete enzymes capable of breaking down complex organic materials",
+    "They perform photosynthesis",
+    "They consume sunlight directly",
+    "They lack cell walls"
+  ],
+  correct: 0,
+  explanations: [
+    "Fungi release enzymes that digest complex molecules such as cellulose and lignin.",
+    "Fungi are not photosynthetic.",
+    "Sunlight is not their nutrient source.",
+    "Fungi possess cell walls containing chitin."
+  ]
+},
+
+{
+  question: "A biologist discovers an organism with chitin cell walls, absorptive nutrition, and filamentous hyphae. The organism is most likely:",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "A fungus",
+    "A plant",
+    "An animal",
+    "A bacterium"
+  ],
+  correct: 0,
+  explanations: [
+    "These characteristics strongly indicate a fungus.",
+    "Plants have cellulose cell walls and photosynthesize.",
+    "Animals lack cell walls.",
+    "Bacteria are prokaryotic and do not have fungal hyphae."
+  ]
+},
+{
+  question: "A forest ecosystem experiences a severe decline in fungal decomposers. Which outcome is most likely over time?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Nutrient recycling slows and dead organic matter accumulates",
+    "Photosynthesis immediately stops",
+    "Plant roots become fungal hyphae",
+    "Cellular respiration ceases in all organisms"
+  ],
+  correct: 0,
+  explanations: [
+    "Fungal decomposers are critical for returning nutrients to ecosystems and breaking down dead organic matter.",
+    "Photosynthesis would continue in plants despite reduced decomposition.",
+    "Plant roots do not transform into fungal structures.",
+    "Cellular respiration would continue in organisms."
+  ]
+},
+
+{
+  question: "A mutation prevents a fungus from secreting digestive enzymes into its environment. What is the most likely consequence?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "The fungus would have difficulty obtaining nutrients",
+    "The fungus would become photosynthetic",
+    "The fungus would produce more spores",
+    "The fungus would immediately die from lack of oxygen"
+  ],
+  correct: 0,
+  explanations: [
+    "Fungi depend on extracellular digestion before nutrient absorption can occur.",
+    "A mutation affecting digestion would not make the fungus photosynthetic.",
+    "Spore production would not necessarily increase.",
+    "Oxygen availability is unrelated to enzyme secretion."
+  ]
+},
+
+{
+  question: "A biologist discovers a symbiotic association in which a fungus receives sugars while the partner organism receives water and minerals. Which relationship is being observed?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Mycorrhiza",
+    "Lichen",
+    "Parasitism",
+    "Predation"
+  ],
+  correct: 0,
+  explanations: [
+    "Mycorrhizae are mutualistic relationships between fungi and plant roots that exchange nutrients and carbohydrates.",
+    "Lichens involve a fungus and a photosynthetic partner.",
+    "Both organisms benefit, so this is not parasitism.",
+    "Neither partner is consuming the other."
+  ]
+},
+
+{
+  question: "A researcher compares two fungal species. Species A has a highly branched mycelium, while Species B has very little branching. Which species is likely to absorb nutrients more efficiently?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Species A, because branching increases surface area",
+    "Species B, because branching reduces nutrient uptake",
+    "Both species absorb nutrients equally",
+    "Neither species can absorb nutrients"
+  ],
+  correct: 0,
+  explanations: [
+    "A highly branched mycelium increases surface area available for absorption.",
+    "Branching generally improves nutrient absorption rather than reducing it.",
+    "Differences in surface area would likely affect absorption efficiency.",
+    "Fungi obtain nutrients by absorption."
+  ]
+},
+
+{
+  question: "A student claims that fungi are ecologically unimportant because they do not perform photosynthesis. Which response best refutes this claim?",
+  category: "Fungi",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Fungi are major decomposers that recycle nutrients within ecosystems",
+    "Fungi directly produce oxygen for ecosystems",
+    "Fungi replace plants in most food webs",
+    "Fungi generate ATP for other organisms"
+  ],
+  correct: 0,
+  explanations: [
+    "Fungi play a critical role in decomposition and nutrient cycling, making them ecologically important.",
+    "Fungi generally do not produce oxygen.",
+    "Fungi do not replace plants as primary producers.",
+    "Organisms generate their own ATP through metabolism."
+  ]
+},
+{
+  question: "What is the primary purpose of photosynthesis?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "To produce ATP for immediate cellular use",
+    "To convert light energy into chemical energy stored in glucose",
+    "To release carbon dioxide",
+    "To break down glucose"
+  ],
+  correct: 1,
+  explanations: [
+    "ATP is produced during photosynthesis, but the overall goal is longer-term energy storage.",
+    "Photosynthesis captures light energy and stores it in glucose.",
+    "Photosynthesis uses carbon dioxide rather than releasing it.",
+    "Breaking down glucose is the role of cellular respiration."
+  ]
+},
+{
+  question: "In which organelle does photosynthesis occur?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Mitochondrion",
+    "Nucleus",
+    "Chloroplast",
+    "Golgi apparatus"
+  ],
+  correct: 2,
+  explanations: [
+    "Mitochondria perform most cellular respiration.",
+    "The nucleus stores genetic information.",
+    "Photosynthesis occurs in chloroplasts.",
+    "The Golgi apparatus modifies and packages cellular products."
+  ]
+},
+{
+  question: "Which pigment is primarily responsible for capturing light energy during photosynthesis?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Hemoglobin",
+    "Chlorophyll",
+    "Keratin",
+    "Melanin"
+  ],
+  correct: 1,
+  explanations: [
+    "Hemoglobin transports oxygen in many animals.",
+    "Chlorophyll absorbs light energy used in photosynthesis.",
+    "Keratin is a structural protein.",
+    "Melanin is not involved in photosynthesis."
+  ]
+},
+{
+  question: "Which of the following is an input of photosynthesis?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Oxygen",
+    "ATP",
+    "Carbon dioxide",
+    "Pyruvate"
+  ],
+  correct: 2,
+  explanations: [
+    "Oxygen is typically a product of photosynthesis.",
+    "ATP is generated during photosynthesis.",
+    "Carbon dioxide is a major reactant in photosynthesis.",
+    "Pyruvate is associated with cellular respiration."
+  ]
+},
+{
+  question: "Which of the following is a product of photosynthesis?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Carbon dioxide",
+    "Glucose",
+    "NADH",
+    "Acetyl-CoA"
+  ],
+  correct: 1,
+  explanations: [
+    "Carbon dioxide is consumed during photosynthesis.",
+    "Glucose is one of the main products of photosynthesis.",
+    "NADH is primarily associated with cellular respiration.",
+    "Acetyl-CoA is involved in cellular respiration."
+  ]
+},
+{
+  question: "Where are chloroplasts commonly found?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Only in animals",
+    "Only in fungi",
+    "In many photosynthetic organisms",
+    "Only in bacteria"
+  ],
+  correct: 2,
+  explanations: [
+    "Animals generally lack chloroplasts.",
+    "Fungi are not photosynthetic and lack chloroplasts.",
+    "Many plants and algae contain chloroplasts.",
+    "Most bacteria do not contain chloroplasts."
+  ]
+},
+
+{
+  question: "What gas is released during photosynthesis?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Nitrogen",
+    "Carbon dioxide",
+    "Oxygen",
+    "Methane"
+  ],
+  correct: 2,
+  explanations: [
+    "Nitrogen is not produced during photosynthesis.",
+    "Carbon dioxide is consumed during photosynthesis.",
+    "Oxygen is released as a byproduct of photosynthesis.",
+    "Methane is not produced during photosynthesis."
+  ]
+},
+{
+  question: "Which molecule provides the electrons that replace those lost by chlorophyll during the light reactions?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Carbon dioxide",
+    "Glucose",
+    "Water",
+    "ATP"
+  ],
+  correct: 2,
+  explanations: [
+    "Carbon dioxide is used during carbon fixation.",
+    "Glucose is produced during photosynthesis.",
+    "Water is split during the light reactions, providing electrons to replace those lost by chlorophyll.",
+    "ATP serves as an energy carrier."
+  ]
+},
+
+{
+  question: "What happens to water during the light reactions of photosynthesis?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "It is converted into glucose",
+    "It is split, releasing electrons and oxygen",
+    "It becomes carbon dioxide",
+    "It is transported to the nucleus"
+  ],
+  correct: 1,
+  explanations: [
+    "Water is not directly converted into glucose.",
+    "Water is split during the light reactions, generating electrons, hydrogen ions, and oxygen.",
+    "Water does not become carbon dioxide.",
+    "Water is not transported to the nucleus as part of photosynthesis."
+  ]
+},
+
+{
+  question: "During photosynthesis, oxygen is produced from:",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Carbon dioxide",
+    "Glucose",
+    "Water",
+    "ATP"
+  ],
+  correct: 2,
+  explanations: [
+    "Although carbon dioxide contributes carbon to glucose, it is not the source of the released oxygen.",
+    "Glucose is a product, not the source of oxygen gas.",
+    "The oxygen released during photosynthesis comes from the splitting of water molecules.",
+    "ATP is an energy carrier and does not generate oxygen."
+  ]
+},
+
+{
+  question: "What is the function of chlorophyll in photosynthesis?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Store genetic information",
+    "Absorb light energy",
+    "Synthesize proteins",
+    "Break down glucose"
+  ],
+  correct: 1,
+  explanations: [
+    "DNA stores genetic information.",
+    "Chlorophyll absorbs light energy that powers photosynthesis.",
+    "Protein synthesis occurs at ribosomes.",
+    "Breaking down glucose is part of cellular respiration."
+  ]
+},
+
+{
+  question: "Which statement correctly compares photosynthesis and cellular respiration?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Easy",
+  options: [
+    "Photosynthesis stores energy in glucose, while cellular respiration releases energy from glucose",
+    "Both processes produce glucose",
+    "Both processes require chloroplasts",
+    "Photosynthesis breaks down glucose, while respiration produces it"
+  ],
+  correct: 0,
+  explanations: [
+    "Photosynthesis captures and stores energy in glucose, whereas cellular respiration extracts energy from glucose.",
+    "Cellular respiration does not produce glucose.",
+    "Cellular respiration primarily occurs in mitochondria, not chloroplasts.",
+    "This statement reverses the actual roles of the two processes."
+  ]
+},
+{
+  question: "What is the primary purpose of the light-dependent reactions?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "To produce ATP and NADPH",
+    "To synthesize glucose directly",
+    "To release carbon dioxide",
+    "To fix carbon dioxide"
+  ],
+  correct: 0,
+  explanations: [
+    "The light reactions capture light energy and convert it into ATP and NADPH.",
+    "Glucose is produced later through the Calvin cycle.",
+    "Carbon dioxide is consumed rather than released.",
+    "Carbon fixation occurs in the Calvin cycle."
+  ]
+},
+
+{
+  question: "Where do the light-dependent reactions occur?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Chloroplast stroma",
+    "Thylakoid membranes",
+    "Nucleus",
+    "Mitochondrial matrix"
+  ],
+  correct: 1,
+  explanations: [
+    "The stroma is the site of the Calvin cycle.",
+    "Light-dependent reactions occur in the thylakoid membranes.",
+    "The nucleus stores DNA.",
+    "The mitochondrial matrix is associated with cellular respiration."
+  ]
+},
+
+{
+  question: "What is the primary role of ATP produced during the light reactions?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Provide energy for the Calvin cycle",
+    "Store carbon atoms",
+    "Release oxygen",
+    "Split water molecules"
+  ],
+  correct: 0,
+  explanations: [
+    "ATP generated in the light reactions supplies energy for the Calvin cycle.",
+    "ATP is not used to store carbon.",
+    "ATP does not directly release oxygen.",
+    "Water splitting occurs before ATP is produced."
+  ]
+},
+
+{
+  question: "What is the primary role of NADPH in photosynthesis?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Donate high-energy electrons to the Calvin cycle",
+    "Carry oxygen",
+    "Build cell walls",
+    "Split carbon dioxide"
+  ],
+  correct: 0,
+  explanations: [
+    "NADPH supplies high-energy electrons during sugar production.",
+    "NADPH does not transport oxygen.",
+    "Cell wall synthesis is not its primary role.",
+    "NADPH does not split carbon dioxide."
+  ]
+},
+
+{
+  question: "What process directly produces oxygen during photosynthesis?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Carbon fixation",
+    "Water splitting",
+    "Glucose synthesis",
+    "ATP hydrolysis"
+  ],
+  correct: 1,
+  explanations: [
+    "Carbon fixation incorporates carbon dioxide into organic molecules.",
+    "Splitting water molecules releases oxygen gas.",
+    "Glucose synthesis does not directly generate oxygen.",
+    "ATP hydrolysis releases energy but not oxygen."
+  ]
+},
+
+{
+  question: "Which stage of photosynthesis uses carbon dioxide as a reactant?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Light-dependent reactions",
+    "Calvin cycle",
+    "Water splitting",
+    "Photolysis only"
+  ],
+  correct: 1,
+  explanations: [
+    "Carbon dioxide is not directly used during the light reactions.",
+    "The Calvin cycle incorporates carbon dioxide into sugars.",
+    "Water splitting involves water rather than carbon dioxide.",
+    "Photolysis refers to water splitting."
+  ]
+},
+
+{
+  question: "Where does the Calvin cycle occur?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Thylakoid membranes",
+    "Mitochondrial matrix",
+    "Stroma of the chloroplast",
+    "Cell membrane"
+  ],
+  correct: 2,
+  explanations: [
+    "The thylakoids contain the light reactions.",
+    "The mitochondrial matrix is involved in respiration.",
+    "The Calvin cycle occurs in the chloroplast stroma.",
+    "The cell membrane is not the primary site."
+  ]
+},
+
+{
+  question: "What is carbon fixation?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Release of carbon dioxide",
+    "Incorporation of carbon dioxide into organic molecules",
+    "Breakdown of glucose",
+    "Production of ATP"
+  ],
+  correct: 1,
+  explanations: [
+    "Photosynthesis generally uses rather than releases carbon dioxide.",
+    "Carbon fixation incorporates inorganic carbon into organic compounds.",
+    "Glucose breakdown occurs during respiration.",
+    "ATP production occurs primarily during the light reactions."
+  ]
+},
+
+{
+  question: "Which enzyme plays a major role in carbon fixation?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "DNA polymerase",
+    "ATP synthase",
+    "Rubisco",
+    "Ligase"
+  ],
+  correct: 2,
+  explanations: [
+    "DNA polymerase functions in DNA replication.",
+    "ATP synthase generates ATP.",
+    "Rubisco catalyzes carbon fixation in the Calvin cycle.",
+    "Ligase joins DNA fragments."
+  ]
+},
+
+{
+  question: "A researcher blocks ATP production during the light reactions. Which process will be affected most directly?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Carbon fixation in the Calvin cycle",
+    "DNA replication",
+    "Cell division",
+    "Water uptake"
+  ],
+  correct: 0,
+  explanations: [
+    "The Calvin cycle requires ATP generated during the light reactions.",
+    "DNA replication is not directly dependent on photosynthetic ATP production.",
+    "Cell division is affected indirectly rather than immediately.",
+    "Water uptake is not directly controlled by ATP from photosynthesis."
+  ]
+},
+{
+  question: "What is the primary purpose of the Calvin cycle?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Capture light energy",
+    "Fix carbon dioxide into organic molecules",
+    "Split water molecules",
+    "Produce oxygen"
+  ],
+  correct: 1,
+  explanations: [
+    "Light energy is captured during the light-dependent reactions.",
+    "The Calvin cycle incorporates carbon dioxide into organic molecules.",
+    "Water splitting occurs in the light reactions.",
+    "Oxygen production occurs during the light reactions."
+  ]
+},
+
+{
+  question: "Which molecules produced during the light reactions are used directly by the Calvin cycle?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "ATP and NADPH",
+    "Glucose and oxygen",
+    "Carbon dioxide and water",
+    "Pyruvate and acetyl-CoA"
+  ],
+  correct: 0,
+  explanations: [
+    "ATP provides energy and NADPH provides high-energy electrons for the Calvin cycle.",
+    "Glucose is a product and oxygen is released as a byproduct.",
+    "Carbon dioxide is used by the Calvin cycle, but water is primarily involved in the light reactions.",
+    "These molecules are associated with cellular respiration."
+  ]
+},
+
+{
+  question: "Why is ATP required during the Calvin cycle?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "To provide energy for carbon fixation and sugar production",
+    "To absorb sunlight",
+    "To split water molecules",
+    "To transport oxygen"
+  ],
+  correct: 0,
+  explanations: [
+    "ATP supplies the energy needed for Calvin cycle reactions.",
+    "Chlorophyll absorbs sunlight.",
+    "Water splitting occurs in the light reactions.",
+    "ATP is not used to transport oxygen."
+  ]
+},
+
+{
+  question: "What would happen most directly if chlorophyll could no longer absorb light?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "ATP and NADPH production would decrease",
+    "The Calvin cycle would speed up",
+    "Carbon dioxide would increase inside glucose",
+    "Cellular respiration would stop immediately"
+  ],
+  correct: 0,
+  explanations: [
+    "Without light absorption, the light-dependent reactions cannot efficiently generate ATP and NADPH.",
+    "The Calvin cycle depends on ATP and NADPH and would eventually slow.",
+    "This statement is biologically meaningless.",
+    "Cellular respiration can still occur."
+  ]
+},
+
+{
+  question: "A scientist blocks carbon dioxide from entering a leaf. Which process would be most directly affected?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Calvin cycle",
+    "Water splitting",
+    "Electron transport in thylakoids",
+    "ATP synthesis during the light reactions"
+  ],
+  correct: 0,
+  explanations: [
+    "Carbon dioxide is a reactant used in the Calvin cycle.",
+    "Water splitting uses water rather than carbon dioxide.",
+    "Electron transport can continue temporarily.",
+    "ATP production is part of the light reactions."
+  ]
+},
+
+{
+  question: "Which statement best explains the relationship between the light reactions and the Calvin cycle?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "The light reactions supply ATP and NADPH used by the Calvin cycle",
+    "The Calvin cycle supplies sunlight to the light reactions",
+    "The two pathways occur in different organisms",
+    "The Calvin cycle produces oxygen for the light reactions"
+  ],
+  correct: 0,
+  explanations: [
+    "ATP and NADPH generated during the light reactions power the Calvin cycle.",
+    "Sunlight comes from the environment.",
+    "Both occur in photosynthetic organisms.",
+    "Oxygen is produced during the light reactions."
+  ]
+},
+
+{
+  question: "A researcher traces carbon atoms from atmospheric carbon dioxide. Where are those atoms most likely found after photosynthesis?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "Glucose",
+    "Oxygen gas",
+    "ATP phosphate groups",
+    "Chlorophyll"
+  ],
+  correct: 0,
+  explanations: [
+    "Carbon dioxide provides the carbon atoms used to build glucose.",
+    "The oxygen released during photosynthesis comes primarily from water.",
+    "ATP phosphates do not originate from atmospheric carbon dioxide.",
+    "Carbon fixation primarily contributes to sugar production."
+  ]
+},
+
+{
+  question: "Why is Rubisco considered an important enzyme?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "It catalyzes carbon fixation",
+    "It produces oxygen",
+    "It synthesizes chlorophyll",
+    "It splits water"
+  ],
+  correct: 0,
+  explanations: [
+    "Rubisco is responsible for incorporating carbon dioxide into organic molecules.",
+    "Oxygen production occurs during water splitting.",
+    "Rubisco does not create chlorophyll.",
+    "Water splitting occurs elsewhere in photosynthesis."
+  ]
+},
+
+{
+  question: "If ATP production in the light reactions stopped completely, what would happen to the Calvin cycle?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "It would slow or stop because it lacks energy",
+    "It would accelerate",
+    "It would begin producing oxygen",
+    "It would become cellular respiration"
+  ],
+  correct: 0,
+  explanations: [
+    "ATP is required to drive Calvin cycle reactions.",
+    "The cycle depends on ATP and would not accelerate.",
+    "Oxygen production occurs during the light reactions.",
+    "The Calvin cycle does not transform into respiration."
+  ]
+},
+
+{
+  question: "A chloroplast has fully functioning light reactions but a defective Calvin cycle. Which molecule would still be produced directly?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Medium",
+  options: [
+    "ATP",
+    "Glucose",
+    "Starch",
+    "Cellulose"
+  ],
+  correct: 0,
+  explanations: [
+    "The light-dependent reactions continue to produce ATP.",
+    "Glucose production requires a functioning Calvin cycle.",
+    "Starch synthesis depends on sugar production.",
+    "Cellulose production depends on sugar production."
+  ]
+},
+{
+  question: "A scientist labels carbon dioxide molecules with a radioactive marker and allows a plant to photosynthesize. Where will the radioactive carbon most likely be found later?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Glucose",
+    "Oxygen gas",
+    "Water",
+    "ATP phosphate groups"
+  ],
+  correct: 0,
+  explanations: [
+    "Carbon dioxide provides the carbon atoms used to build glucose.",
+    "The oxygen released during photosynthesis comes primarily from water.",
+    "Water is not the primary destination of carbon from carbon dioxide.",
+    "ATP phosphate groups are not built from atmospheric carbon."
+  ]
+},
+
+{
+  question: "A mutation prevents water from being split during the light reactions. Which outcome is most likely?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Oxygen production decreases",
+    "Carbon fixation increases",
+    "Glucose production accelerates",
+    "Cellular respiration stops"
+  ],
+  correct: 0,
+  explanations: [
+    "Water splitting is the source of oxygen released during photosynthesis.",
+    "Carbon fixation depends on products generated by the light reactions.",
+    "Glucose production would decrease rather than increase.",
+    "Respiration is a separate pathway."
+  ]
+},
+
+{
+  question: "A plant is placed in complete darkness but continues to receive water and carbon dioxide. Which process stops first?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Light-dependent reactions",
+    "Cellular respiration",
+    "Water uptake",
+    "Mineral absorption"
+  ],
+  correct: 0,
+  explanations: [
+    "Light-dependent reactions require light energy.",
+    "Respiration can continue in darkness.",
+    "Plants can still absorb water in darkness.",
+    "Mineral uptake can continue without light."
+  ]
+},
+
+{
+  question: "A researcher discovers a mutant plant that cannot produce NADPH. Which process would be affected most directly?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "The Calvin cycle",
+    "DNA replication",
+    "Water absorption",
+    "Cell division only"
+  ],
+  correct: 0,
+  explanations: [
+    "The Calvin cycle requires NADPH as a source of high-energy electrons.",
+    "DNA replication is not directly dependent on photosynthetic NADPH.",
+    "Water absorption is not the primary consequence.",
+    "The Calvin cycle is affected first."
+  ]
+},
+
+{
+  question: "A student claims that plants obtain most of their mass from soil minerals. Which statement best corrects this misconception?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Most plant biomass originates from carbon dioxide fixed during photosynthesis",
+    "Most plant mass comes from sunlight",
+    "Most plant mass originates from oxygen gas",
+    "Most plant mass comes directly from ATP"
+  ],
+  correct: 0,
+  explanations: [
+    "Carbon dioxide supplies most of the carbon atoms incorporated into plant tissues.",
+    "Sunlight provides energy but not matter.",
+    "Oxygen is not the primary source of plant biomass.",
+    "ATP stores energy but does not provide most plant mass."
+  ]
+},
+
+{
+  question: "A chloroplast can perform the light reactions normally but cannot carry out carbon fixation. Which molecule would still be produced directly?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "ATP",
+    "Glucose",
+    "Cellulose",
+    "Starch"
+  ],
+  correct: 0,
+  explanations: [
+    "ATP is produced during the light-dependent reactions.",
+    "Glucose production requires carbon fixation.",
+    "Cellulose synthesis depends on glucose production.",
+    "Starch synthesis depends on sugars produced during photosynthesis."
+  ]
+},
+
+{
+  question: "Which statement best describes the relationship between photosynthesis and cellular respiration?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Products of one process are reactants of the other",
+    "They occur in identical organelles",
+    "Only plants perform both processes",
+    "They produce the same final products"
+  ],
+  correct: 0,
+  explanations: [
+    "Photosynthesis and respiration are interdependent in terms of reactants and products.",
+    "Chloroplasts and mitochondria are different organelles.",
+    "Many organisms other than plants perform respiration.",
+    "The two pathways produce different products."
+  ]
+},
+
+{
+  question: "A researcher measures oxygen production in a leaf and finds it has dropped dramatically, while carbon dioxide levels remain unchanged. Which process is most likely impaired?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Water splitting during the light reactions",
+    "Glycolysis",
+    "Citric acid cycle",
+    "Fermentation"
+  ],
+  correct: 0,
+  explanations: [
+    "The oxygen released during photosynthesis originates from water splitting.",
+    "Glycolysis occurs in cellular respiration.",
+    "The citric acid cycle occurs during respiration.",
+    "Fermentation is unrelated to oxygen production in photosynthesis."
+  ]
+},
+
+{
+  question: "A plant receives abundant light but no carbon dioxide. Which process can still continue directly?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "Light-dependent reactions",
+    "Carbon fixation",
+    "Glucose synthesis",
+    "Calvin cycle"
+  ],
+  correct: 0,
+  explanations: [
+    "The light-dependent reactions can still occur because they rely on light and water.",
+    "Carbon fixation requires carbon dioxide.",
+    "Glucose production requires carbon fixation.",
+    "The Calvin cycle depends on carbon dioxide availability."
+  ]
+},
+
+{
+  question: "A scientist compares two identical plants. One receives sunlight, water, and carbon dioxide. The other receives sunlight and water but no carbon dioxide. Which difference is most likely after several days?",
+  category: "Photosynthesis",
+  exam: "Exam 4",
+  difficulty: "Hard",
+  options: [
+    "The plant without carbon dioxide produces less glucose",
+    "The plant without carbon dioxide produces more oxygen",
+    "The plant without carbon dioxide performs more photosynthesis",
+    "The plants produce identical amounts of glucose"
+  ],
+  correct: 0,
+  explanations: [
+    "Carbon dioxide is required to build glucose during the Calvin cycle.",
+    "Oxygen production would not increase under these conditions.",
+    "Photosynthesis would be limited without carbon dioxide.",
+    "Glucose production would differ significantly."
+  ]
+},
 ]
