@@ -257,12 +257,43 @@ text-decoration: underline;
 
 <!-- Course Code Option -->
 
-<label>Course Access Code (optional):</label>
+<label>Reason for Use (optional):</label>
 
-<input
-  type="text"
-  id="courseCodeInput"
-  placeholder="Enter course code from Canvas">
+<select id="courseCodeInput">
+  <option value="">Please select an option</option>
+
+  <option value="BIOL110-FA26-001">
+    BIOL 110 Fall 2026 - Section 001
+  </option>
+
+  <option value="BIOL110-FA26-002">
+    BIOL 110 Fall 2026 - Section 002
+  </option>
+
+  <option value="BIOL110-FA26-003">
+    BIOL 110 Fall 2026 - Section 003
+  </option>
+
+  <option value="BIOL110-FA26-004">
+    BIOL 110 Fall 2026 - Section 004
+  </option>
+
+  <option value="BIOL110-FA26-005">
+    BIOL 110 Fall 2026 - Section 005
+  </option>
+
+  <option value="BIOL110-FA26-006">
+    BIOL 110 Fall 2026 - Section 006
+  </option>
+
+ <option value="PreMed Practice">
+    Pre-Med or MCAT Prep
+  </option>
+
+  <option value="PUBLIC">
+    Visitor / Public User
+  </option>
+</select>
 
 <button
   type="button"
@@ -270,12 +301,6 @@ text-decoration: underline;
   onclick="saveCourseCode()">
   Save Code
 </button>
-
-<br>
-
-<small id="courseCodeStatus">
-Penn State students: enter the access code provided in Canvas.
-</small>
 
 <br><br>
 
@@ -432,7 +457,7 @@ function saveCourseCode() {
 
     document.getElementById("courseCodeStatus")
       .innerText =
-      "✓ Course code saved.";
+      "✓ Selection saved. Analytics will be associated with this option.";
 
   }
 }
