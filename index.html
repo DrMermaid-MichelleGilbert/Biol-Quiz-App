@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BIOL 114, Exam Practice v1.0.5 [stable]</title>
+  <title>BIOL 114, Exam Practice v1.0.6 [stable]</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet"
@@ -245,7 +245,7 @@ text-decoration: underline;
 
 <body>
 
-<h3>BIOL 114, Exam 1 Practice v1.0.5 [stable]</h3>
+<h3>BIOL 114, Exam 1 Practice v1.0.6 [stable]</h3>
 
 <!-------Dyslexia Option Toggle-->
 <label>
@@ -269,27 +269,27 @@ text-decoration: underline;
   <option value="">Please select an option</option>
 
   <option value="BIOL114-FA26-001">
-    BIOL 110 Fall 2026 - Section 001
+    BIOL 114 Fall 2026 - Section 001
   </option>
 
   <option value="BIOL114-FA26-002">
-    BIOL 110 Fall 2026 - Section 002
+    BIOL 114 Fall 2026 - Section 002
   </option>
 
   <option value="BIOL114-FA26-003">
-    BIOL 110 Fall 2026 - Section 003
+    BIOL 114 Fall 2026 - Section 003
   </option>
 
   <option value="BIOL114-FA26-004">
-    BIOL 110 Fall 2026 - Section 004
+    BIOL 114 Fall 2026 - Section 004
   </option>
 
   <option value="BIOL114-FA26-005">
-    BIOL 110 Fall 2026 - Section 005
+    BIOL 114 Fall 2026 - Section 005
   </option>
 
   <option value="BIOL114-FA26-006">
-    BIOL 110 Fall 2026 - Section 006
+    BIOL 114 Fall 2026 - Section 006
   </option>
 
  <option value="PreMed Practice">
@@ -368,7 +368,9 @@ Please select an option and click Save Code.
 <p id="modeLabel"></p>
 <!-- Question and options -->
 <div id="quizContainer">
-  <h2 id="question"></h2>
+  <h2 id="question">
+    Please select a reason for use and click Save Code to begin.
+  </h2>
   <p id="score"></p>
   <div id="questionMeta"></div>
   <div id="options"></div>
@@ -454,6 +456,8 @@ function toggleMotion() {
 // ---- Save course code----
 function saveCourseCode() {
 
+  if (codeSaved) return;
+
   courseCode =
     document.getElementById("courseCodeInput")
       .value
@@ -463,17 +467,26 @@ function saveCourseCode() {
 
     document.getElementById("courseCodeStatus")
       .innerText =
-      "No course code entered.";
+      "Please select an option.";
 
   } else {
 
     document.getElementById("courseCodeStatus")
       .innerText =
-      "✓ Selection saved. Analytics will be associated with this option.";
+      "✓ Selection saved. Quiz unlocked.";
+
+      codeSaved = true;
+
+          document.getElementById("courseCodeInput")
+            .disabled = true;
+          document.querySelector(".saveCodeBtn")
+            .disabled = true;
+
+
+      startQuiz();
 
   }
 }
-
 
 // ---- Question Category Statistics Tracking Function ----
 function initializeCategoryStats() {
@@ -500,11 +513,16 @@ let quizSet = [];
 let missedQuestions = [];
 let reviewMode = false;
 let courseCode = "";
+let codeSaved = false;
 let categoryStats = initializeCategoryStats();
 
 
 // start quiz with selected category
 function startQuiz() {
+
+  if (!codeSaved) {
+    return;
+  }
 
   courseCode = 
     document.getElementById("courseCodeInput")
@@ -825,7 +843,7 @@ function startReview() {
 // ---- START ----
 
 
-startQuiz();
+//startQuiz();
 
 </script>
 
