@@ -15,25 +15,7 @@ const questions = [
       "Some organisms are unicellular."
     ]
   },
-  {
-    question: "What is the primary mechanism that drives evolution?",
-    category: "Evolution",
-    exam: "Exam 1", difficulty:  "Easy",
-    options: [
-      "Organisms change because they need to survive",
-      "Individuals evolve during their lifetime",
-      "Differential survival and reproduction",
-      "All traits are equally passed on"
-    ],
-    correct: 2,
-    explanations: [
-      "Common misconception.",
-      "Individuals do not evolve.",
-      "Natural selection drives evolution.",
-      "Traits are not equally likely."
-    ]
-  },
-{
+ {
   question: "What is the primary mechanism that drives evolution by natural selection?",
   category: "Evolution",
   exam: "Exam 1", difficulty:  "Easy",
@@ -10528,6 +10510,937 @@ const questions = [
     "Oxygen production would not increase under these conditions.",
     "Photosynthesis would be limited without carbon dioxide.",
     "Glucose production would differ significantly."
+  ]
+},
+{
+  question: "What is the primary function of roots in plants?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Easy",
+  options: [
+    "Produce flowers",
+    "Absorb water and minerals",
+    "Perform photosynthesis",
+    "Disperse seeds"
+  ],
+  correct: 1,
+  explanations: [
+    "Flowers are reproductive structures.",
+    "Roots absorb water and minerals from the soil.",
+    "Leaves are the primary site of photosynthesis.",
+    "Seeds are dispersed by various mechanisms."
+  ]
+},
+{
+  question: "Which plant structure is primarily responsible for photosynthesis?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Easy",
+  options: [
+    "Root",
+    "Stem",
+    "Leaf",
+    "Seed"
+  ],
+  correct: 2,
+  explanations: [
+    "Roots mainly absorb water and minerals.",
+    "Stems provide support and transport.",
+    "Leaves contain most chloroplasts and are the primary site of photosynthesis.",
+    "Seeds contain developing embryos."
+  ]
+},
+{
+  question: "Which vascular tissue transports water from roots to leaves?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Easy",
+  options: [
+    "Phloem",
+    "Xylem",
+    "Cuticle",
+    "Epidermis"
+  ],
+  correct: 1,
+  explanations: [
+    "Phloem transports sugars.",
+    "Xylem transports water and dissolved minerals.",
+    "The cuticle helps reduce water loss.",
+    "The epidermis is a protective outer layer."
+  ]
+},
+{
+  question: "Which vascular tissue transports sugars throughout a plant?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Easy",
+  options: [
+    "Xylem",
+    "Phloem",
+    "Cortex",
+    "Cambium"
+  ],
+  correct: 1,
+  explanations: [
+    "Xylem transports water.",
+    "Phloem transports sugars produced during photosynthesis.",
+    "The cortex is a ground tissue.",
+    "Cambium produces vascular tissues."
+  ]
+},
+{
+  question: "What is the primary function of a leaf?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Easy",
+  options: [
+    "Seed dispersal",
+    "Photosynthesis",
+    "Water absorption",
+    "Pollination"
+  ],
+  correct: 1,
+  explanations: [
+    "Leaves are not specialized for seed dispersal.",
+    "Leaves are the primary site of photosynthesis.",
+    "Roots absorb most water.",
+    "Pollination occurs in reproductive structures."
+  ]
+},
+{
+  question: "What is the function of a seed?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Easy",
+  options: [
+    "Transport water",
+    "Contain and protect a developing embryo",
+    "Produce pollen",
+    "Absorb sunlight"
+  ],
+  correct: 1,
+  explanations: [
+    "Water transport occurs through xylem.",
+    "Seeds protect embryos and often contain stored nutrients.",
+    "Pollen is produced by male reproductive structures.",
+    "Leaves absorb most sunlight."
+  ]
+},
+{
+  question: "Which group of plants produces flowers?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Easy",
+  options: [
+    "Mosses",
+    "Ferns",
+    "Gymnosperms",
+    "Angiosperms"
+  ],
+  correct: 3,
+  explanations: [
+    "Mosses do not produce flowers.",
+    "Ferns reproduce with spores.",
+    "Gymnosperms produce cones.",
+    "Angiosperms are flowering plants."
+  ]
+},
+{
+  question: "Which structure helps reduce water loss from plant leaves?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Easy",
+  options: [
+    "Xylem",
+    "Cuticle",
+    "Phloem",
+    "Stoma"
+  ],
+  correct: 1,
+  explanations: [
+    "Xylem transports water.",
+    "The waxy cuticle reduces water loss.",
+    "Phloem transports sugars.",
+    "Stomata allow gas exchange."
+  ]
+},
+{
+  question: "What is the primary function of stomata?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Easy",
+  options: [
+    "Transport sugars",
+    "Produce seeds",
+    "Gas exchange",
+    "Anchor roots"
+  ],
+  correct: 2,
+  explanations: [
+    "Sugars are transported through phloem.",
+    "Seeds are produced after fertilization.",
+    "Stomata regulate gas exchange and water loss.",
+    "Roots anchor plants."
+  ]
+},
+{
+  question: "Which structure contains pollen in most flowering plants?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Easy",
+  options: [
+    "Ovary",
+    "Anther",
+    "Sepal",
+    "Root"
+  ],
+  correct: 1,
+  explanations: [
+    "The ovary contains ovules.",
+    "The anther produces and contains pollen.",
+    "Sepals protect flower buds.",
+    "Roots are underground structures."
+  ]
+},
+{
+  question: "Which group of plants produces seeds but not flowers?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Easy",
+  options: [
+    "Mosses",
+    "Ferns",
+    "Gymnosperms",
+    "Angiosperms"
+  ],
+  correct: 2,
+  explanations: [
+    "Mosses reproduce with spores.",
+    "Ferns reproduce with spores.",
+    "Gymnosperms produce seeds but do not produce flowers.",
+    "Angiosperms produce flowers and seeds."
+  ]
+},
+{
+  question: "What is the primary function of a fruit?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Easy",
+  options: [
+    "Absorb water",
+    "Produce pollen",
+    "Protect and aid in seed dispersal",
+    "Transport sugars"
+  ],
+  correct: 2,
+  explanations: [
+    "Roots absorb water.",
+    "Pollen is produced in reproductive structures.",
+    "Fruits protect seeds and often help disperse them.",
+    "Sugars are transported by phloem."
+  ]
+},
+{
+  question: "What is pollination?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Easy",
+  options: [
+    "Formation of seeds",
+    "Transfer of pollen from male to female structures",
+    "Growth of roots",
+    "Release of fruits"
+  ],
+  correct: 1,
+  explanations: [
+    "Seeds form after fertilization.",
+    "Pollination is the transfer of pollen to a receptive structure.",
+    "Root growth is unrelated to pollination.",
+    "Fruit development occurs later."
+  ]
+},
+{
+  question: "What structure contains the ovules in flowering plants?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Easy",
+  options: [
+    "Anther",
+    "Petal",
+    "Ovary",
+    "Sepal"
+  ],
+  correct: 2,
+  explanations: [
+    "The anther produces pollen.",
+    "Petals attract pollinators.",
+    "The ovary contains ovules.",
+    "Sepals protect developing flower buds."
+  ]
+},
+{
+  question: "Which group of plants lacks vascular tissue?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Mosses",
+    "Ferns",
+    "Gymnosperms",
+    "Angiosperms"
+  ],
+  correct: 0,
+  explanations: [
+    "Mosses are nonvascular plants.",
+    "Ferns contain vascular tissue.",
+    "Gymnosperms contain vascular tissue.",
+    "Angiosperms contain vascular tissue."
+  ]
+},
+{
+  question: "Why are seeds considered an important adaptation for life on land?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "They contain chloroplasts",
+    "They protect and nourish developing embryos",
+    "They produce oxygen",
+    "They transport water"
+  ],
+  correct: 1,
+  explanations: [
+    "Seeds do not function primarily through chloroplasts.",
+    "Seeds protect embryos and often contain stored nutrients.",
+    "Photosynthetic tissues produce oxygen.",
+    "Xylem transports water."
+  ]
+},
+{
+  question: "Compared to mosses, vascular plants have the advantage of:",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Being able to transport water efficiently",
+    "Producing chlorophyll",
+    "Performing photosynthesis",
+    "Reproducing only with spores"
+  ],
+  correct: 0,
+  explanations: [
+    "Vascular tissues allow efficient transport of water and nutrients.",
+    "Both groups possess chlorophyll.",
+    "Both groups perform photosynthesis.",
+    "Many vascular plants reproduce with seeds."
+  ]
+},
+{
+  question: "Which plant structure typically attracts animal pollinators?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Easy",
+  options: [
+    "Root",
+    "Petal",
+    "Xylem",
+    "Seed coat"
+  ],
+  correct: 1,
+  explanations: [
+    "Roots absorb water and nutrients.",
+    "Petals often attract pollinators through color and scent.",
+    "Xylem transports water.",
+    "Seed coats protect seeds."
+  ]
+},
+{
+  question: "Which evolutionary innovation allowed plants to reproduce without requiring standing water for sperm transport?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Leaves",
+    "Pollen",
+    "Chlorophyll",
+    "Roots"
+  ],
+  correct: 1,
+  explanations: [
+    "Leaves aid photosynthesis.",
+    "Pollen allows sperm to be transported without free-standing water.",
+    "Chlorophyll captures light energy.",
+    "Roots anchor plants and absorb resources."
+  ]
+},
+{
+  question: "What is the main advantage of flowers to angiosperms?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Improved photosynthesis",
+    "More efficient pollination and reproduction",
+    "Greater water absorption",
+    "Faster xylem transport"
+  ],
+  correct: 1,
+  explanations: [
+    "Flowers are reproductive rather than photosynthetic structures.",
+    "Flowers help increase reproductive success by attracting pollinators.",
+    "Roots are responsible for water uptake.",
+    "Flowers do not directly affect xylem transport."
+  ]
+},
+{
+  question: "What is transpiration?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Production of sugars",
+    "Loss of water vapor from plant surfaces",
+    "Transport of pollen",
+    "Development of seeds"
+  ],
+  correct: 1,
+  explanations: [
+    "Sugars are produced during photosynthesis.",
+    "Transpiration is the evaporation of water from plant surfaces, primarily through stomata.",
+    "Pollen transport is pollination.",
+    "Seed development occurs after fertilization."
+  ]
+},
+{
+  question: "Through which structures does most transpiration occur?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Roots",
+    "Flowers",
+    "Stomata",
+    "Seeds"
+  ],
+  correct: 2,
+  explanations: [
+    "Roots absorb water but are not the primary site of transpiration.",
+    "Flowers may lose some water but are not the primary location.",
+    "Most transpiration occurs through stomata.",
+    "Seeds are not involved in transpiration."
+  ]
+},
+{
+  question: "What is the primary function of guard cells?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Produce pollen",
+    "Regulate the opening and closing of stomata",
+    "Transport water through xylem",
+    "Store sugars"
+  ],
+  correct: 1,
+  explanations: [
+    "Pollen is produced in anthers.",
+    "Guard cells control stomatal opening and closing.",
+    "Xylem transports water.",
+    "Storage is not their primary role."
+  ]
+},
+{
+  question: "What is the main force responsible for pulling water upward through xylem?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Gravity",
+    "Transpiration",
+    "Photosynthesis",
+    "Pollination"
+  ],
+  correct: 1,
+  explanations: [
+    "Gravity opposes upward water movement.",
+    "Transpiration creates tension that helps pull water upward.",
+    "Photosynthesis uses water but is not the primary transport mechanism.",
+    "Pollination is unrelated."
+  ]
+},
+{
+  question: "If a plant's stomata remain completely closed for an extended period, what is a likely consequence?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Increased carbon dioxide uptake",
+    "Reduced photosynthesis",
+    "Increased transpiration",
+    "More rapid growth"
+  ],
+  correct: 1,
+  explanations: [
+    "Carbon dioxide uptake would decrease.",
+    "Photosynthesis would decline because less carbon dioxide enters the leaf.",
+    "Transpiration would decrease.",
+    "Growth would likely slow."
+  ]
+},
+{
+  question: "Which adaptation is most helpful for plants living in dry environments?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Thin cuticle",
+    "Large exposed leaves",
+    "Thick waxy cuticle",
+    "Increased stomatal opening"
+  ],
+  correct: 2,
+  explanations: [
+    "A thin cuticle increases water loss.",
+    "Large exposed leaves can increase evaporation.",
+    "A thick waxy cuticle helps reduce water loss.",
+    "Increased stomatal opening increases transpiration."
+  ]
+},
+{
+  question: "A researcher removes the xylem from a plant stem but leaves the phloem intact. Which function will be most directly affected?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Water transport",
+    "Sugar transport",
+    "Pollination",
+    "Seed production"
+  ],
+  correct: 0,
+  explanations: [
+    "Xylem transports water and minerals.",
+    "Phloem primarily transports sugars.",
+    "Pollination is unrelated to xylem.",
+    "Seed production would be affected indirectly."
+  ]
+},
+{
+  question: "What is the primary function of phloem?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Transport sugars",
+    "Transport water",
+    "Support leaves",
+    "Produce pollen"
+  ],
+  correct: 0,
+  explanations: [
+    "Phloem distributes sugars throughout the plant.",
+    "Water transport is the role of xylem.",
+    "Support is primarily provided by structural tissues.",
+    "Pollen production occurs in reproductive structures."
+  ]
+},
+{
+  question: "Why do plants require vascular tissue?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "To transport water, minerals, and sugars",
+    "To capture sunlight",
+    "To produce seeds",
+    "To perform cellular respiration"
+  ],
+  correct: 0,
+  explanations: [
+    "Vascular tissues allow efficient transport throughout the plant.",
+    "Sunlight capture occurs primarily in leaves.",
+    "Seeds are reproductive structures.",
+    "All living cells perform respiration."
+  ]
+},
+{
+  question: "A desert plant opens its stomata primarily at night. What is the most likely advantage?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Increased water conservation",
+    "Increased pollination",
+    "Faster seed production",
+    "Greater oxygen uptake"
+  ],
+  correct: 0,
+  explanations: [
+    "Opening stomata at night reduces water loss in hot, dry environments.",
+    "Pollination is generally unrelated.",
+    "Seed production is not directly affected by stomatal timing.",
+    "The primary advantage is reduced transpiration."
+  ]
+},
+{
+  question: "Which evolutionary innovation allowed plants to grow taller and transport materials more efficiently?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Flowers",
+    "Vascular tissue",
+    "Seeds",
+    "Fruits"
+  ],
+  correct: 1,
+  explanations: [
+    "Flowers primarily aid reproduction.",
+    "Vascular tissue allows efficient transport of water, minerals, and sugars.",
+    "Seeds aid reproduction and dispersal.",
+    "Fruits aid seed protection and dispersal."
+  ]
+},
+{
+  question: "Why are mosses generally restricted to moist environments?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "They lack chlorophyll",
+    "Their sperm require water for movement",
+    "They lack roots",
+    "They cannot perform photosynthesis"
+  ],
+  correct: 1,
+  explanations: [
+    "Mosses contain chlorophyll.",
+    "Moss sperm require a film of water to reach eggs.",
+    "Although mosses lack true roots, this is not the primary reason.",
+    "Mosses are photosynthetic organisms."
+  ]
+},
+{
+  question: "Compared to mosses, ferns have which major advantage?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Seeds",
+    "Flowers",
+    "Vascular tissue",
+    "Fruits"
+  ],
+  correct: 2,
+  explanations: [
+    "Ferns do not produce seeds.",
+    "Ferns do not produce flowers.",
+    "Ferns possess vascular tissue that improves transport and support.",
+    "Ferns do not produce fruits."
+  ]
+},
+{
+  question: "Which group of plants was the first to evolve seeds?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Mosses",
+    "Ferns",
+    "Seed plants",
+    "Green algae"
+  ],
+  correct: 2,
+  explanations: [
+    "Mosses reproduce by spores.",
+    "Ferns reproduce by spores.",
+    "Seed plants evolved seeds as a major adaptation to terrestrial life.",
+    "Green algae do not produce seeds."
+  ]
+},
+{
+  question: "What is the major advantage of pollen compared to free-swimming sperm?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "It transports water",
+    "It allows reproduction without standing water",
+    "It produces seeds",
+    "It performs photosynthesis"
+  ],
+  correct: 1,
+  explanations: [
+    "Pollen does not transport water.",
+    "Pollen eliminates the need for sperm to swim through water.",
+    "Seeds develop after fertilization.",
+    "Pollen is not photosynthetic."
+  ]
+},
+{
+  question: "Which characteristic is shared by mosses, ferns, gymnosperms, and angiosperms?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Production of flowers",
+    "Production of seeds",
+    "Photosynthesis",
+    "Production of fruits"
+  ],
+  correct: 2,
+  explanations: [
+    "Only angiosperms produce flowers.",
+    "Not all plant groups produce seeds.",
+    "All of these groups perform photosynthesis.",
+    "Only angiosperms produce fruits."
+  ]
+},
+{
+  question: "Why are seeds considered a major evolutionary advantage?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "They increase transpiration",
+    "They protect and nourish the developing embryo",
+    "They improve pollination",
+    "They produce chlorophyll"
+  ],
+  correct: 1,
+  explanations: [
+    "Seeds are not involved in transpiration.",
+    "Seeds protect embryos and provide stored resources.",
+    "Pollination occurs before seed formation.",
+    "Seeds do not produce chlorophyll."
+  ]
+},
+{
+  question: "A plant species develops thicker cuticles over many generations. What selective advantage might this provide?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Increased water retention",
+    "Increased fruit production",
+    "Improved pollination",
+    "Faster photosynthesis"
+  ],
+  correct: 0,
+  explanations: [
+    "Thicker cuticles reduce water loss and improve drought tolerance.",
+    "Fruit production is not directly affected.",
+    "Pollination is unrelated.",
+    "Photosynthesis may actually decrease if gas exchange becomes limited."
+  ]
+},
+{
+  question: "In plants, which generation produces spores?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Medium",
+  options: [
+    "Sporophyte",
+    "Gametophyte",
+    "Embryophyte",
+    "Seedling"
+  ],
+  correct: 0,
+  explanations: [
+    "The sporophyte generation produces spores by meiosis.",
+    "The gametophyte generation produces gametes.",
+    "Embryophyte refers broadly to land plants.",
+    "Seedlings are juvenile plants."
+  ]
+},
+{
+  question: "A potted plant placed near a window gradually bends toward the light source. This response is an example of:",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Hard",
+  options: [
+    "Phototropism",
+    "Gravitropism",
+    "Thigmotropism",
+    "Transpiration"
+  ],
+  correct: 0,
+  explanations: [
+    "Phototropism is growth in response to light.",
+    "Gravitropism is growth in response to gravity.",
+    "Thigmotropism is growth in response to touch.",
+    "Transpiration involves water loss."
+  ]
+},
+{
+  question: "Which plant hormone is most closely associated with phototropism?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Hard",
+  options: [
+    "Auxin",
+    "Ethylene",
+    "Abscisic acid",
+    "Gibberellin"
+  ],
+  correct: 0,
+  explanations: [
+    "Auxin promotes unequal cell elongation, causing stems to bend toward light.",
+    "Ethylene is involved in fruit ripening.",
+    "Abscisic acid is associated with stress responses.",
+    "Gibberellins promote stem elongation and germination."
+  ]
+},
+{
+  question: "A researcher removes the apical tip from a young plant shoot. Which response is most likely?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Hard",
+  options: [
+    "Reduced auxin production and altered shoot growth",
+    "Increased photosynthesis immediately",
+    "Enhanced seed production",
+    "Loss of vascular tissue"
+  ],
+  correct: 0,
+  explanations: [
+    "The shoot tip is a major source of auxin.",
+    "Photosynthesis would not immediately increase.",
+    "Seed production is not the direct consequence.",
+    "Vascular tissues remain present."
+  ]
+},
+{
+  question: "A plant growing in a dark cabinet is laid on its side. Which response would most likely occur in the root?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Hard",
+  options: [
+    "The root grows upward",
+    "The root grows downward in response to gravity",
+    "The root stops growing",
+    "The root produces flowers"
+  ],
+  correct: 1,
+  explanations: [
+    "Roots generally display positive gravitropism.",
+    "Roots grow toward gravity even without light.",
+    "Roots continue growing unless damaged.",
+    "Roots do not produce flowers."
+  ]
+},
+{
+  question: "A scientist blocks all stomata on a plant's leaves. Which process would be affected most immediately?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Hard",
+  options: [
+    "Gas exchange",
+    "Pollination",
+    "Seed dispersal",
+    "Fruit production"
+  ],
+  correct: 0,
+  explanations: [
+    "Stomata are the primary sites of gas exchange.",
+    "Pollination occurs through reproductive structures.",
+    "Seed dispersal occurs later in the life cycle.",
+    "Fruit production is not immediately affected."
+  ]
+},
+{
+  question: "Which observation would provide the strongest evidence that transpiration contributes to water movement in plants?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Hard",
+  options: [
+    "Water uptake decreases when stomata are closed",
+    "Leaves contain chlorophyll",
+    "Roots absorb minerals",
+    "Seeds contain embryos"
+  ],
+  correct: 0,
+  explanations: [
+    "Closing stomata reduces transpiration and decreases water movement.",
+    "Chlorophyll is related to photosynthesis.",
+    "Mineral absorption does not directly demonstrate transpiration.",
+    "Embryos are unrelated to transpiration."
+  ]
+},
+{
+  question: "A drought causes guard cells to close stomata. What is the primary benefit of this response?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Hard",
+  options: [
+    "Reduced water loss",
+    "Increased photosynthesis",
+    "More rapid pollen production",
+    "Greater nutrient absorption"
+  ],
+  correct: 0,
+  explanations: [
+    "Closing stomata conserves water.",
+    "Photosynthesis may actually decline because carbon dioxide availability decreases.",
+    "Pollen production is not directly affected.",
+    "Nutrient absorption is not the primary benefit."
+  ]
+},
+{
+  question: "A scientist discovers a plant mutation that prevents xylem formation. Which process would be most severely impaired?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Hard",
+  options: [
+    "Transport of water and minerals",
+    "Sugar transport",
+    "Pollination",
+    "Seed dispersal"
+  ],
+  correct: 0,
+  explanations: [
+    "Xylem is responsible for water and mineral transport.",
+    "Phloem transports sugars.",
+    "Pollination does not rely on xylem directly.",
+    "Seed dispersal mechanisms are separate from xylem function."
+  ]
+},
+{
+  question: "A researcher grows two identical plants. One is exposed to directional light, and the other receives equal light from all directions. Which outcome is most likely?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Hard",
+  options: [
+    "Only the first plant demonstrates phototropism",
+    "Only the second plant performs photosynthesis",
+    "Neither plant grows",
+    "Both plants bend in the same direction"
+  ],
+  correct: 0,
+  explanations: [
+    "Directional light causes unequal auxin distribution and bending.",
+    "Both plants can perform photosynthesis.",
+    "Both plants can continue to grow.",
+    "The second plant lacks a directional light cue."
+  ]
+},
+{
+  question: "Which statement best explains why vascular tissue was an important evolutionary innovation in plants?",
+  category: "Plant Biology",
+  exam: "Exam 5",
+  difficulty: "Hard",
+  options: [
+    "It allowed plants to grow larger and occupy more terrestrial habitats",
+    "It eliminated the need for photosynthesis",
+    "It allowed plants to become fungi",
+    "It prevented all water loss"
+  ],
+  correct: 0,
+  explanations: [
+    "Efficient transport systems allowed plants to become larger and more successful on land.",
+    "Photosynthesis remains essential.",
+    "Plants did not become fungi.",
+    "Vascular tissue does not prevent all water loss."
   ]
 }
 ]
