@@ -717,6 +717,291 @@ const questions = [
     "Mutations remain random and gradual."
   ]
 },
+{
+  question: "A radioactive isotope has a half-life of 10 years. If a sample begins with 100 grams, how much remains after 20 years?",
+  category: "Evolution",
+  exam: "Exam 1",
+  difficulty: "Medium",
+  options: [
+    "50 grams",
+    "25 grams",
+    "12.5 grams",
+    "75 grams"
+  ],
+  correct: 1,
+  explanations: [
+    "Only one half-life has passed after 10 years.",
+    "Two half-lives reduce 100 → 50 → 25 grams.",
+    "Three half-lives would produce 12.5 grams.",
+    "Radioactive decay is not linear."
+  ]
+},
+{
+  question: "A fossil contains 25% of its original radioactive carbon. Approximately how many half-lives have passed?",
+  category: "Evolution",
+  exam: "Exam 1",
+  difficulty: "Medium",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  correct: 1,
+  explanations: [
+    "One half-life leaves 50%.",
+    "Two half-lives leave 25%.",
+    "Three half-lives leave 12.5%.",
+    "Four half-lives leave 6.25%."
+  ]
+},
+{
+  question: "A medication has a half-life of 8 hours. A patient takes 80 mg. How much remains after 16 hours?",
+  category: "Evolution",
+  exam: "Exam 1",
+  difficulty: "Medium",
+  options: [
+    "40 mg",
+    "20 mg",
+    "10 mg",
+    "60 mg"
+  ],
+  correct: 1,
+  explanations: [
+    "One half-life leaves 40 mg.",
+    "Two half-lives leave 20 mg.",
+    "Three half-lives leave 10 mg.",
+    "Drug elimination follows repeated halving."
+  ]
+},
+{
+  question: "Which sample is oldest if all samples originally contained the same amount of a radioactive isotope?",
+  category: "Evolution",
+  exam: "Exam 1",
+  difficulty: "Hard",
+  options: [
+    "50% remaining",
+    "25% remaining",
+    "12.5% remaining",
+    "75% remaining"
+  ],
+  correct: 2,
+  explanations: [
+    "More isotope remains than in 12.5%.",
+    "More isotope remains than in 12.5%.",
+    "The least remaining isotope indicates the greatest age.",
+    "This sample has undergone less decay."
+  ]
+},
+{
+  question: "A scientist finds that a rock contains one-eighth of its original radioactive isotope. How many half-lives have elapsed?",
+  category: "Evolution",
+  exam: "Exam 1",
+  difficulty: "Hard",
+  options: [
+    "2",
+    "3",
+    "4",
+    "8"
+  ],
+  correct: 1,
+  explanations: [
+    "Two half-lives leave one-quarter.",
+    "Three half-lives leave one-eighth.",
+    "Four half-lives leave one-sixteenth.",
+    "Half-lives are not counted this way."
+  ]
+},
+{
+  question: "A medication has a half-life of 6 hours. Which statement is correct?",
+  category: "Evolution",
+  exam: "Exam 1",
+  difficulty: "Medium",
+  options: [
+    "The medication disappears completely after 6 hours",
+    "Half of the medication remains after 6 hours",
+    "6 mg are lost every hour",
+    "The medication doubles every 6 hours"
+  ],
+  correct: 1,
+  explanations: [
+    "Half-life means half remains, not complete disappearance.",
+    "This is the definition of a half-life.",
+    "Decay is exponential rather than linear.",
+    "The amount decreases rather than increases."
+  ]
+},
+{
+  question: "A radioactive isotope has a half-life of 100 years. A sample contains 12.5% of its original amount. Approximately how old is the sample?",
+  category: "Evolution",
+  exam: "Exam 1",
+  difficulty: "Hard",
+  options: [
+    "100 years",
+    "200 years",
+    "300 years",
+    "400 years"
+  ],
+  correct: 2,
+  explanations: [
+    "One half-life leaves 50%.",
+    "Two half-lives leave 25%.",
+    "Three half-lives leave 12.5%, corresponding to 300 years.",
+    "Four half-lives leave 6.25%."
+  ]
+},
+{
+  question: "Why are radioactive isotopes useful for estimating the age of fossils and rocks?",
+  category: "Evolution",
+  exam: "Exam 1",
+  difficulty: "Medium",
+  options: [
+    "They decay at predictable rates",
+    "They increase in abundance over time",
+    "They stop decaying after one half-life",
+    "They are unaffected by time"
+  ],
+  correct: 0,
+  explanations: [
+    "Predictable decay rates make age estimates possible.",
+    "Radioactive isotopes decay rather than increase.",
+    "Decay continues beyond one half-life.",
+    "Time affects radioactive decay."
+  ]
+},
+{
+  question: "A patient receives 40 mg of a drug with a half-life of 4 hours. How much remains after 12 hours?",
+  category: "Evolution",
+  exam: "Exam 1",
+  difficulty: "Medium",
+  options: [
+    "20 mg",
+    "10 mg",
+    "5 mg",
+    "2.5 mg"
+  ],
+  correct: 2,
+  explanations: [
+    "One half-life leaves 20 mg.",
+    "Two half-lives leave 10 mg.",
+    "Three half-lives leave 5 mg.",
+    "Four half-lives would leave 2.5 mg."
+  ]
+},
+{
+  question: "Two radioactive isotopes are identical except that one has a shorter half-life. Which isotope decays faster?",
+  category: "Evolution",
+  exam: "Exam 1",
+  difficulty: "Medium",
+  options: [
+    "The isotope with the longer half-life",
+    "The isotope with the shorter half-life",
+    "Both decay at the same rate",
+    "There is not enough information"
+  ],
+  correct: 1,
+  explanations: [
+    "Longer half-lives correspond to slower decay.",
+    "Shorter half-lives indicate faster decay.",
+    "Their decay rates differ.",
+    "The necessary information is provided."
+  ]
+},
+{
+  question: "A fossil contains 50% of its original radioactive isotope. What can be concluded?",
+  category: "Evolution",
+  exam: "Exam 1",
+  difficulty: "Hard",
+  options: [
+    "One half-life has passed",
+    "Two half-lives have passed",
+    "The fossil is 50 years old",
+    "The fossil is twice as old as the isotope"
+  ],
+  correct: 0,
+  explanations: [
+    "One half-life leaves 50% of the original amount.",
+    "Two half-lives leave 25%.",
+    "The actual age depends on the isotope's half-life.",
+    "This statement has no meaning."
+  ]
+},
+{
+  question: "Which process explains why radioactive isotopes become less abundant over time?",
+  category: "Evolution",
+  exam: "Exam 1",
+  difficulty: "Medium",
+  options: [
+    "Radioactive decay",
+    "Photosynthesis",
+    "Diffusion",
+    "Natural selection"
+  ],
+  correct: 0,
+  explanations: [
+    "Radioactive decay reduces the abundance of unstable isotopes.",
+    "Photosynthesis is unrelated.",
+    "Diffusion does not change isotope stability.",
+    "Natural selection affects populations."
+  ]
+},
+{
+  question: "An environmental scientist measures a contaminant with a half-life of 5 years. If 200 units are present today, approximately how many remain after 15 years?",
+  category: "Evolution",
+  exam: "Exam 1",
+  difficulty: "Hard",
+  options: [
+    "100",
+    "50",
+    "25",
+    "12.5"
+  ],
+  correct: 2,
+  explanations: [
+    "One half-life leaves 100.",
+    "Two half-lives leave 50.",
+    "Three half-lives leave 25.",
+    "Four half-lives would leave 12.5."
+  ]
+},
+{
+  question: "A student claims that after two half-lives, a radioactive sample has completely disappeared. Which response is most accurate?",
+  category: "Evolution",
+  exam: "Exam 1",
+  difficulty: "Hard",
+  options: [
+    "The student is correct",
+    "25% of the sample remains",
+    "50% of the sample remains",
+    "12.5% of the sample remains"
+  ],
+  correct: 1,
+  explanations: [
+    "Radioactive samples do not disappear after two half-lives.",
+    "Two half-lives leave 25% remaining.",
+    "One half-life leaves 50%.",
+    "Three half-lives leave 12.5%."
+  ]
+},
+{
+  question: "Why does radioactive dating become less reliable for extremely old samples?",
+  category: "Evolution",
+  exam: "Exam 1",
+  difficulty: "Hard",
+  options: [
+    "Too little radioactive isotope remains to measure accurately",
+    "Radioactive isotopes stop decaying",
+    "Half-lives change over time",
+    "Atoms stop aging"
+  ],
+  correct: 0,
+  explanations: [
+    "Very old samples may contain only tiny amounts of the original isotope.",
+    "Radioactive decay continues indefinitely.",
+    "Half-lives are generally constant.",
+    "Atoms do not age in this sense."
+  ]
+},
 // =====================================================
 // EXAM 1 - CHEMISTRY OF LIFE
 // =====================================================
