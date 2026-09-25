@@ -4066,6 +4066,386 @@ const questions = [
     "Translation is protein synthesis and unrelated to DNA copying."
   ]
 },
+{
+  question: "If a DNA template strand contains the sequence ATCG, what sequence will be synthesized on the new strand?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "TAGC",
+    "AUCG",
+    "GCTA",
+    "TCGA"
+  ],
+  correct: 0,
+  explanations: [
+    "A pairs with T and C pairs with G, producing TAGC.",
+    "Uracil is found in RNA rather than DNA.",
+    "This sequence does not follow complementary base-pairing rules.",
+    "This sequence is not fully complementary."
+  ]
+},
+{
+  question: "A DNA molecule contains 30% adenine. Approximately what percentage of the molecule is thymine?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "20%",
+    "30%",
+    "40%",
+    "70%"
+  ],
+  correct: 1,
+  explanations: [
+    "Adenine pairs with thymine in equal proportions.",
+    "If adenine is 30%, thymine is also 30%.",
+    "This exceeds the complementary proportion.",
+    "Adenine and thymine together equal 60%, not 70%."
+  ]
+},
+{
+  question: "A DNA molecule contains 20% cytosine. Approximately what percentage is guanine?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "10%",
+    "20%",
+    "30%",
+    "40%"
+  ],
+  correct: 1,
+  explanations: [
+    "Guanine pairs with cytosine in equal proportions.",
+    "If cytosine is 20%, guanine is also 20%.",
+    "This exceeds the complementary proportion.",
+    "This exceeds the complementary proportion."
+  ]
+},
+{
+  question: "Which event occurs first during DNA replication?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "DNA polymerase adds nucleotides",
+    "DNA ligase joins fragments",
+    "Helicase unwinds DNA",
+    "Proofreading occurs"
+  ],
+  correct: 2,
+  explanations: [
+    "Polymerase acts after strands are separated.",
+    "Ligase functions later in replication.",
+    "Helicase must first separate the DNA strands.",
+    "Proofreading occurs during synthesis."
+  ]
+},
+{
+  question: "What would happen if primase were unable to synthesize RNA primers?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "DNA polymerase could not begin DNA synthesis",
+    "DNA strands would not separate",
+    "Okazaki fragments would join normally",
+    "Chromosomes would immediately separate"
+  ],
+  correct: 0,
+  explanations: [
+    "DNA polymerase requires a primer before synthesis can begin.",
+    "Helicase separates DNA strands.",
+    "Fragments cannot form normally without replication initiation.",
+    "Chromosome separation occurs later in cell division."
+  ]
+},
+{
+  question: "Which statement best explains why complementary base pairing is important during replication?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "It helps maintain genetic accuracy",
+    "It produces ATP",
+    "It separates chromosomes",
+    "It creates RNA"
+  ],
+  correct: 0,
+  explanations: [
+    "Complementary pairing helps copy DNA accurately.",
+    "ATP production is unrelated.",
+    "Chromosome separation occurs during cell division.",
+    "Replication copies DNA rather than creating RNA."
+  ]
+},
+{
+  question: "A mutation prevents DNA polymerase from adding nucleotides. What is the most direct consequence?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "New DNA strands cannot be synthesized",
+    "DNA cannot unwind",
+    "RNA primers cannot form",
+    "Hydrogen bonds cannot break"
+  ],
+  correct: 0,
+  explanations: [
+    "DNA polymerase is required to build new DNA strands.",
+    "Helicase unwinds DNA.",
+    "Primase synthesizes primers.",
+    "Helicase breaks hydrogen bonds."
+  ]
+},
+{
+  question: "A double-stranded DNA molecule contains 22% adenine. Approximately what percentage of the molecule is thymine?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "22%",
+    "28%",
+    "44%",
+    "56%"
+  ],
+  correct: 0,
+  explanations: [
+    "Adenine pairs with thymine, so they occur in equal proportions.",
+    "This value does not match adenine's proportion.",
+    "22% + 22% = 44%, but thymine alone is 22%.",
+    "This exceeds the combined AT content."
+  ]
+},
+{
+  question: "A DNA molecule contains 35% guanine. Approximately what percentage of the molecule is cytosine?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "15%",
+    "35%",
+    "50%",
+    "65%"
+  ],
+  correct: 1,
+  explanations: [
+    "Cytosine must equal guanine.",
+    "Guanine pairs with cytosine, so both occur at 35%.",
+    "This exceeds the complementary proportion.",
+    "This exceeds the complementary proportion."
+  ]
+},
+{
+  question: "A double-stranded DNA molecule contains 30% adenine. What percentage of the molecule is guanine?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "20%",
+    "30%",
+    "40%",
+    "60%"
+  ],
+  correct: 0,
+  explanations: [
+    "If adenine is 30%, thymine is also 30%, leaving 40% for guanine and cytosine combined. Therefore guanine is 20%.",
+    "This would leave too much total DNA.",
+    "This exceeds the remaining available bases.",
+    "This exceeds 100%."
+  ]
+},
+{
+  question: "A DNA molecule contains 18% cytosine. Approximately what percentage of the molecule is adenine?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "18%",
+    "32%",
+    "41%",
+    "64%"
+  ],
+  correct: 1,
+  explanations: [
+    "Cytosine equals guanine, not adenine.",
+    "If cytosine is 18%, guanine is 18%, leaving 64% for adenine and thymine combined. Adenine is therefore 32%.",
+    "This would make the total exceed 100%.",
+    "This is the combined percentage of adenine and thymine."
+  ]
+},
+{
+  question: "In a double-stranded DNA molecule, thymine makes up 24% of the bases. Approximately what percentage of the bases are cytosine?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "24%",
+    "26%",
+    "48%",
+    "52%"
+  ],
+  correct: 1,
+  explanations: [
+    "Cytosine does not necessarily equal thymine.",
+    "If thymine is 24%, adenine is also 24%, leaving 52% for guanine and cytosine combined. Cytosine is therefore 26%.",
+    "This is the combined GC content.",
+    "This exceeds the available GC content."
+  ]
+},
+{
+  question: "A DNA sample contains 40% guanine. What percentage of the molecule is composed of adenine and thymine combined?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "10%",
+    "20%",
+    "40%",
+    "80%"
+  ],
+  correct: 1,
+  explanations: [
+    "This is too small.",
+    "If guanine is 40%, cytosine is also 40%, leaving 20% for adenine and thymine combined.",
+    "This is the percentage of guanine alone.",
+    "This exceeds the available bases."
+  ]
+},
+{
+  question: "Which strand requires multiple RNA primers during replication?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "Leading strand",
+    "Lagging strand",
+    "Template strand",
+    "Coding strand"
+  ],
+  correct: 1,
+  explanations: [
+    "The leading strand generally requires only one primer.",
+    "Each Okazaki fragment requires its own primer.",
+    "Template strand is not the specific answer.",
+    "Coding strand terminology is associated with transcription."
+  ]
+},
+{
+  question: "Which feature of DNA allows one strand to serve as a template for another?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "Complementary base pairing",
+    "ATP production",
+    "Chromosome condensation",
+    "Membrane transport"
+  ],
+  correct: 0,
+  explanations: [
+    "Complementary base pairing enables accurate copying.",
+    "ATP production is unrelated.",
+    "Condensation occurs during chromosome packaging.",
+    "Membrane transport is unrelated."
+  ]
+},
+{
+  question: "A student observes DNA replication occurring simultaneously at multiple locations along a chromosome. This observation is most consistent with:",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "Multiple origins of replication",
+    "Protein translation",
+    "Chromosome segregation",
+    "Cellular respiration"
+  ],
+  correct: 0,
+  explanations: [
+    "Large eukaryotic chromosomes often have many replication origins.",
+    "Translation occurs on ribosomes.",
+    "Segregation occurs during cell division.",
+    "Respiration is unrelated."
+  ]
+},
+{
+  question: "What would most likely happen if DNA replication introduced too many errors?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "Mutation rates would increase",
+    "ATP production would stop",
+    "Chromosomes would disappear",
+    "Ribosomes would stop functioning"
+  ],
+  correct: 0,
+  explanations: [
+    "Replication errors that remain become mutations.",
+    "ATP production is not directly affected.",
+    "Chromosomes would still exist.",
+    "Ribosomes are not the primary consequence."
+  ]
+},
+{
+  question: "During replication, which enzyme is most directly responsible for maintaining high accuracy of DNA copying?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "DNA polymerase",
+    "Helicase",
+    "Primase",
+    "Ligase"
+  ],
+  correct: 0,
+  explanations: [
+    "DNA polymerase can proofread newly synthesized DNA.",
+    "Helicase separates strands.",
+    "Primase synthesizes RNA primers.",
+    "Ligase joins DNA fragments."
+  ]
+},
+{
+  question: "A DNA molecule is replicated. How many DNA molecules are present after replication is complete?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "One",
+    "Two",
+    "Three",
+    "Four"
+  ],
+  correct: 1,
+  explanations: [
+    "Replication copies the original molecule.",
+    "One DNA molecule produces two daughter DNA molecules.",
+    "Three molecules are not produced from a single replication event.",
+    "Four molecules would require an additional round of replication."
+  ]
+},
+{
+  question: "Which outcome provides the strongest evidence that DNA replication was successful?",
+  category: "DNA Replication",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "Two DNA molecules containing the same genetic information are produced",
+    "ATP concentration increases",
+    "Protein synthesis stops",
+    "Cell membranes divide"
+  ],
+  correct: 0,
+  explanations: [
+    "Replication is successful when DNA information is accurately copied.",
+    "ATP levels do not determine replication success.",
+    "Protein synthesis normally continues after replication.",
+    "Membrane division is part of cytokinesis rather than replication."
+  ]
+},
 // =====================================================
 // EXAM 2 - MITOSIS AND THE CELL CYCLE
 // =====================================================
