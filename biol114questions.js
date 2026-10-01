@@ -4924,6 +4924,253 @@ const questions = [
     "Genetic variation is primarily associated with meiosis."
   ]
 },
+{
+  question: "A cell contains 10 chromosomes in G1. How many sister chromatids will be present immediately after DNA replication?",
+  category: "Mitosis",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "5",
+    "10",
+    "20",
+    "40"
+  ],
+  correct: 2,
+  explanations: [
+    "Chromosome number is not cut in half.",
+    "Each chromosome consists of two sister chromatids after replication.",
+    "Ten chromosomes become twenty chromatids after DNA replication.",
+    "This exceeds the correct chromatid count."
+  ]
+},
+{
+  question: "A cell contains 24 chromosomes before S phase. How many chromosomes are present immediately after DNA replication?",
+  category: "Mitosis",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "12",
+    "24",
+    "48",
+    "96"
+  ],
+  correct: 1,
+  explanations: [
+    "Chromosome number is not reduced.",
+    "DNA replication creates sister chromatids, but chromosome number remains unchanged.",
+    "Students often confuse chromosome number with chromatid number.",
+    "This exceeds the correct chromosome count."
+  ]
+},
+{
+  question: "A cell enters mitosis with 16 chromosomes. During anaphase, how many chromosomes move toward each pole?",
+  category: "Mitosis",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "4",
+    "8",
+    "16",
+    "32"
+  ],
+  correct: 1,
+  explanations: [
+    "This is too few chromosomes.",
+    "Half of the chromosomes move toward each pole during anaphase.",
+    "This is the total chromosome number in the cell.",
+    "This exceeds the total chromosome count."
+  ]
+},
+{
+  question: "A cell contains 8 chromosomes immediately before S phase. How many chromatids are present at that time?",
+  category: "Mitosis",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "4",
+    "8",
+    "16",
+    "32"
+  ],
+  correct: 1,
+  explanations: [
+    "This is too low.",
+    "Before replication, each chromosome consists of a single chromatid.",
+    "This chromatid count occurs after replication.",
+    "This exceeds the correct value."
+  ]
+},
+{
+  question: "A cell contains 8 chromosomes immediately after S phase. How many chromatids are present?",
+  category: "Mitosis",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "8",
+    "12",
+    "16",
+    "32"
+  ],
+  correct: 2,
+  explanations: [
+    "This would be true before replication.",
+    "This is not a valid count.",
+    "Each chromosome now has two sister chromatids, producing 16 chromatids total.",
+    "This exceeds the correct value."
+  ]
+},
+{
+  question: "A scientist discovers a mutation that allows cells to bypass a DNA-damage checkpoint. What is the most likely consequence?",
+  category: "Mitosis",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "Cells may divide despite damaged DNA",
+    "DNA replication becomes unnecessary",
+    "Mitosis stops completely",
+    "Chromosome number is cut in half"
+  ],
+  correct: 0,
+  explanations: [
+    "Checkpoint failure can allow mutations to accumulate in daughter cells.",
+    "Cells still require DNA replication.",
+    "Mitosis can continue despite checkpoint failure.",
+    "Chromosome number is not automatically altered."
+  ]
+},
+{
+  question: "Why are cell-cycle checkpoints important in preventing cancer?",
+  category: "Mitosis",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "They prevent damaged cells from dividing uncontrollably",
+    "They increase mutation rates",
+    "They stop DNA replication permanently",
+    "They eliminate all cell division"
+  ],
+  correct: 0,
+  explanations: [
+    "Checkpoints help prevent the accumulation of harmful mutations.",
+    "Cancer is associated with increased mutations, not fewer controls.",
+    "DNA replication remains necessary for healthy cells.",
+    "Normal cell division must still occur."
+  ]
+},
+{
+  question: "A drug prevents spindle fibers from shortening during mitosis. Which phase would be most directly affected?",
+  category: "Mitosis",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "Prophase",
+    "Metaphase",
+    "Anaphase",
+    "G1"
+  ],
+  correct: 2,
+  explanations: [
+    "Chromosomes condense during prophase.",
+    "Alignment occurs during metaphase.",
+    "Chromosome movement during anaphase requires spindle shortening.",
+    "G1 occurs before mitosis."
+  ]
+},
+{
+  question: "A toxin prevents chromosomes from attaching to spindle fibers. Which checkpoint is most likely activated?",
+  category: "Mitosis",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "Checkpoint before chromosome separation",
+    "Checkpoint before DNA replication",
+    "Checkpoint after cytokinesis",
+    "No checkpoint would be activated"
+  ],
+  correct: 0,
+  explanations: [
+    "Cells verify proper spindle attachment before allowing chromosome separation.",
+    "DNA replication is a different stage of the cycle.",
+    "This occurs much later.",
+    "Cells have mechanisms to detect improper spindle attachment."
+  ]
+},
+{
+  question: "A researcher examines a cell during metaphase and counts 12 chromosomes. How many chromatids are present?",
+  category: "Mitosis",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "6",
+    "12",
+    "24",
+    "48"
+  ],
+  correct: 2,
+  explanations: [
+    "This is too few chromatids.",
+    "This would be true before DNA replication.",
+    "Each chromosome consists of two sister chromatids during metaphase.",
+    "This exceeds the correct count."
+  ]
+},
+{
+  question: "Why does chromosome condensation occur during prophase?",
+  category: "Mitosis",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "To make chromosomes easier to move and separate",
+    "To increase DNA replication",
+    "To produce ATP",
+    "To create proteins"
+  ],
+  correct: 0,
+  explanations: [
+    "Condensed chromosomes are less likely to become tangled during division.",
+    "Replication occurred earlier in S phase.",
+    "ATP production occurs primarily in mitochondria.",
+    "Protein synthesis is not the purpose of condensation."
+  ]
+},
+{
+  question: "A cell completes mitosis but fails cytokinesis. What is the most likely result?",
+  category: "Mitosis",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "One cell containing two nuclei",
+    "Two normal daughter cells",
+    "Four daughter cells",
+    "A cell with no DNA"
+  ],
+  correct: 0,
+  explanations: [
+    "The nuclei divide, but the cytoplasm fails to separate.",
+    "Cytokinesis is required to form two separate daughter cells.",
+    "Mitosis does not normally produce four cells.",
+    "DNA remains present in the cell."
+  ]
+},
+{
+  question: "Some cells, such as many neurons, rarely undergo mitosis after development. These cells are often described as being in:",
+  category: "Mitosis",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "G0",
+    "Anaphase",
+    "S phase",
+    "Metaphase"
+  ],
+  correct: 0,
+  explanations: [
+    "G0 is a non-dividing state entered by some cells.",
+    "Anaphase is part of mitosis.",
+    "DNA replication occurs during S phase.",
+    "Metaphase is a mitotic stage."
+  ]
+},
 // =====================================================
 // EXAM 2 - CENTRAL DOGMA
 // =====================================================
