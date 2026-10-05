@@ -4963,22 +4963,19 @@ const questions = [
   ]
 },
 {
-  question: "A cell enters mitosis with 16 chromosomes. During anaphase, how many chromosomes move toward each pole?",
-  category: "Mitosis",
-  exam: "Exam 2",
-  difficulty: "Hard",
+  question: "A diploid cell enters mitosis with 16 chromosomes (32 chromatids). During anaphase, sister chromatids separate. How many chromosomes move toward each pole?",
   options: [
     "4",
     "8",
     "16",
     "32"
   ],
-  correct: 1,
+  correct: 2,
   explanations: [
-    "This is too few chromosomes.",
-    "Half of the chromosomes move toward each pole during anaphase.",
-    "This is the total chromosome number in the cell.",
-    "This exceeds the total chromosome count."
+    "Too few chromosomes.",
+    "This would be true only if chromosomes remained joined as sister chromatids.",
+    "Correct. When sister chromatids separate during anaphase, each chromatid becomes an individual chromosome. Sixteen chromosomes move toward each pole.",
+    "This is the total number of chromosomes in the entire cell immediately after sister chromatids separate."
   ]
 },
 {
