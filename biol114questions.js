@@ -5646,6 +5646,196 @@ const questions = [
     "Ribosomes and chromosomes are entirely different structures."
   ]
 },
+{
+  question: "A DNA template strand contains the sequence 3'-TAC GGA ACT-5'. What mRNA sequence will be produced?",
+  category: "Central Dogma",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "5'-AUG CCU UGA-3'",
+    "5'-TAC GGA ACT-3'",
+    "5'-ATG CCT TGA-3'",
+    "5'-UAC GGA ACU-3'"
+  ],
+  correct: 0,
+  explanations: [
+    "RNA polymerase reads the template strand 3'→5' and synthesizes RNA 5'→3'.",
+    "This is the original DNA sequence.",
+    "RNA contains uracil instead of thymine.",
+    "The bases are not properly paired."
+  ]
+},
+{
+  question: "If the coding DNA strand is 5'-ATG CCT TGA-3', what will the mRNA sequence be?",
+  category: "Central Dogma",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "5'-AUG CCU UGA-3'",
+    "3'-UAC GGA ACU-5'",
+    "5'-TAC GGA ACT-3'",
+    "5'-ATG CCT TGA-3'"
+  ],
+  correct: 0,
+  explanations: [
+    "mRNA matches the coding strand except U replaces T.",
+    "This is complementary rather than matching.",
+    "This corresponds to the template strand.",
+    "RNA contains uracil instead of thymine."
+  ]
+},
+{
+  question: "Which DNA strand does RNA polymerase directly read during transcription?",
+  category: "Central Dogma",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "Coding strand",
+    "Template strand",
+    "mRNA strand",
+    "tRNA strand"
+  ],
+  correct: 1,
+  explanations: [
+    "The coding strand is not directly read.",
+    "RNA polymerase reads the template strand to produce mRNA identical to the coding strand.",
+    "mRNA is produced during transcription.",
+    "tRNA functions during translation."
+  ]
+},
+{
+  question: "RNA polymerase always synthesizes RNA in which direction?",
+  category: "Central Dogma",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "3'→5'",
+    "5'→3'",
+    "Both directions",
+    "Direction is random"
+  ],
+  correct: 1,
+  explanations: [
+    "RNA cannot be synthesized in this direction.",
+    "RNA is always synthesized 5'→3'.",
+    "Only one direction is possible.",
+    "Transcription follows strict directionality."
+  ]
+},
+{
+  question: "A ribosome reads the mRNA sequence 5'-AUG GCU AAA-3'. Which amino acid sequence is produced?",
+  category: "Central Dogma",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "Met-Ala-Lys",
+    "Met-Lys-Ala",
+    "Ala-Met-Lys",
+    "Lys-Ala-Met"
+  ],
+  correct: 0,
+  explanations: [
+    "AUG = Met, GCU = Ala, AAA = Lys.",
+    "The codons are out of order.",
+    "Translation always begins with AUG, thereby starting with a Met.",
+    "The codons are read incorrectly."
+  ]
+},
+{
+  question: "What is the anticodon carried by a tRNA that pairs with the mRNA codon AUG?",
+  category: "Central Dogma",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "UAC",
+    "ATG",
+    "AUG",
+    "TAC"
+  ],
+  correct: 0,
+  explanations: [
+    "Correct. Anticodons pair complementarily with codons.",
+    "RNA contains uracil, not thymine.",
+    "This is the codon itself.",
+    "tRNA is RNA, not DNA."
+  ]
+},
+{
+  question: "A mutation changes the codon AAA to AGA. What is the most direct consequence?",
+  category: "Central Dogma",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "The amino acid sequence may change",
+    "DNA replication stops",
+    "The chromosome disappears",
+    "mRNA can no longer form"
+  ],
+  correct: 0,
+  explanations: [
+    "Codon changes can change encoded amino acids.",
+    "Replication is unrelated.",
+    "Chromosomes remain present.",
+    "Transcription can still occur."
+  ]
+},
+{
+  question: "A student claims that RNA polymerase reads DNA in the 5'→3' direction. Why is this incorrect?",
+  category: "Central Dogma",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "RNA polymerase reads DNA 3'→5' while synthesizing RNA 5'→3'",
+    "RNA polymerase reads DNA 5'→3' and synthesizes RNA 5'→3'",
+    "RNA polymerase reads RNA instead of DNA",
+    "RNA polymerase reads Ribosomes"
+  ],
+  correct: 0,
+  explanations: [
+    "DNA is read 3'→5' so RNA can be produced 5'→3'.",
+    "Reading and synthesis directions differ.",
+    "DNA serves as the template.",
+    "Ribosomes are involved in translation."
+  ]
+},
+{
+  question: "The DNA template strand is 3'-GGA TAC AAA-5'. Which mRNA sequence is produced?",
+  category: "Central Dogma",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "5'-CCU AUG UUU-3'",
+    "5'-GGA TAC AAA-3'",
+    "5'-CCA AUG UUU-3'",
+    "5'-CCU ATG TTT-3'"
+  ],
+  correct: 0,
+  explanations: [
+    "Complementary pairing and RNA base rules were applied correctly.",
+    "This is the DNA sequence.",
+    "One base is incorrect.",
+    "RNA contains uracil rather than thymine."
+  ]
+},
+{
+  question: "Translation begins when the ribosome encounters which codon?",
+  category: "Central Dogma",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "AUG",
+    "UAA",
+    "UGA",
+    "UAG"
+  ],
+  correct: 0,
+  explanations: [
+    "AUG serves as the start codon.",
+    "These are stop codons.",
+    "This is a stop codon.",
+    "This is a stop codon."
+  ]
+},
 // =====================================================
 // EXAM 2 - MEIOSIS 
 // =====================================================
