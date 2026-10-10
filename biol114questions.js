@@ -5836,6 +5836,82 @@ const questions = [
     "This is a stop codon."
   ]
 },
+{
+  question: "Which sequence represents a valid mRNA molecule?",
+  category: "Central Dogma",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "AUGCCUUGA",
+    "ATGCCTTGA",
+    "AUGCCTTGA",
+    "ATGCCUUGA"
+  ],
+  correct: 0,
+  explanations: [
+    "mRNA contains A, U, C, and G.",
+    "RNA contains no thymine.",
+    "Contains thymine.",
+    "Contains thymine."
+  ]
+},
+{
+  question: "A DNA coding strand is 5'-GCT AAA TGG-3'. What mRNA sequence is produced?",
+  category: "Central Dogma",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "5'-GCU AAA UGG-3'",
+    "5'-CGA UUU ACC-3'",
+    "3'-GCU AAA UGG-5'",
+    "5'-GCT AAA TGG-3'"
+  ],
+  correct: 0,
+  explanations: [
+    "mRNA matches the coding strand except T is replaced by U.",
+    "This is complementary rather than matching.",
+    "The direction is incorrect.",
+    "RNA contains uracil."
+  ]
+},
+{
+  question: "An mRNA sequence contains 12 nucleotides. How many codons does it contain?",
+  category: "Central Dogma",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "3",
+    "4",
+    "6",
+    "12"
+  ],
+  correct: 1,
+  explanations: [
+    "12 nucleotides divided by 3 equals 4 codons.",
+    "Each codon contains three nucleotides.",
+    "This overestimates the number.",
+    "Codons contain three nucleotides."
+  ]
+},
+{
+  question: "An mRNA molecule reads AUG-CCC-GAA-UAA. How many amino acids will be added to the protein?",
+  category: "Central Dogma",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  correct: 1,
+  explanations: [
+    "Three coding codons occur before the stop codon.",
+    "Correct. AUG, CCC, and GAA encode amino acids before translation terminates.",
+    "Stop codons do not encode amino acids.",
+    "Too many."
+  ]
+},
 // =====================================================
 // EXAM 2 - MEIOSIS 
 // =====================================================
