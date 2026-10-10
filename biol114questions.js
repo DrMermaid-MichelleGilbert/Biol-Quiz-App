@@ -6314,6 +6314,139 @@ const questions = [
     "DNA repair should not contribute to diversity, but should repair what is already there."
 ]	
 },
+{
+  question: "Immediately before Metaphase I, a cell is best described as:",
+  category: "Meiosis",
+  exam: "Exam 2",
+  difficulty: "Medium",
+  options: [
+    "2n2x",
+    "2n4x",
+    "1n2x",
+    "1n1x"
+  ],
+  correct: 1,
+  explanations: [
+    "DNA replication has already occurred.",
+    "The cell is diploid and each chromosome consists of two sister chromatids.",
+    "The cell has not yet completed Meiosis I.",
+    "The cell is neither haploid nor unreplicated."
+  ]
+},
+{
+  question: "Immediately after Meiosis I, a daughter cell is best described as:",
+  category: "Meiosis",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "2n4x",
+    "2n2x",
+    "1n2x",
+    "1n1x"
+  ],
+  correct: 2,
+  explanations: [
+    "The chromosome number has been reduced.",
+    "The cell is no longer diploid.",
+    "Homologous chromosomes have separated, but sister chromatids remain attached.",
+    "Sister chromatids have not yet separated."
+  ]
+},
+{
+  question: "Immediately after Meiosis II, a daughter cell is best described as:",
+  category: "Meiosis",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "2n2x",
+    "2n4x",
+    "1n2x",
+    "1n1x"
+  ],
+  correct: 3,
+  explanations: [
+    "The cell is haploid.",
+    "The cell is both haploid and unreplicated.",
+    "Sister chromatids have separated.",
+    "The resulting gametes are haploid and contain one copy of each chromosome."
+  ]
+},
+{
+  question: "Which transition occurs during Meiosis I?",
+  category: "Meiosis",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "2n2x → 2n4x",
+    "2n4x → 1n2x",
+    "1n2x → 1n1x",
+    "1n1x → 2n2x"
+  ],
+  correct: 1,
+  explanations: [
+    "This is DNA replication.",
+    "Homologous chromosomes separate during Meiosis I.",
+    "This occurs during Meiosis II.",
+    "This occurs during fertilization."
+  ]
+},
+{
+  question: "Which transition occurs during Meiosis II?",
+  category: "Meiosis",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "2n4x → 1n2x",
+    "1n1x → 2n2x",
+    "1n2x → 1n1x",
+    "2n2x → 2n4x"
+  ],
+  correct: 2,
+  explanations: [
+    "This occurs during Meiosis I.",
+    "This occurs during fertilization.",
+    "Sister chromatids separate during Meiosis II.",
+    "This is DNA replication."
+  ]
+},
+{
+  question: "A cell is described as 1n2x. Which statement is true?",
+  category: "Meiosis",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "The cell is diploid and DNA has been replicated",
+    "The cell is haploid and DNA has been replicated",
+    "The cell is haploid and DNA is unreplicated",
+    "The cell is diploid and DNA is unreplicated"
+  ],
+  correct: 1,
+  explanations: [
+    "The cell contains only one chromosome set.",
+    "The cell is haploid but each chromosome still contains two sister chromatids.",
+    "Replication has already occurred.",
+    "The cell is not diploid."
+  ]
+},
+{
+  question: "Place the following stages in order as a diploid cell progresses through meiosis.",
+  category: "Meiosis",
+  exam: "Exam 2",
+  difficulty: "Hard",
+  options: [
+    "2n2x → 2n4x → 1n2x → 1n1x",
+    "2n4x → 2n2x → 1n2x → 1n1x",
+    "2n2x → 1n2x → 2n4x → 1n1x",
+    "2n2x → 2n4x → 1n1x → 1n2x"
+  ],
+  correct: 0,
+  explanations: [
+    "DNA replication occurs first, followed by Meiosis I and then Meiosis II.",
+    "Replication increases DNA content, not decreases it.",
+    "Meiosis I cannot occur before replication.",
+    "Meiosis II must occur after the haploid replicated stage."
+  ]
+},
 // =====================================================
 // EXAM 3 - MENDELIAN GENETICS
 // =====================================================
