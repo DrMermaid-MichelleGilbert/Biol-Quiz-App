@@ -7044,7 +7044,7 @@ const questions = [
 // =====================================================
 {
   question: "What does Mendel's Law of Segregation state?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Easy",
   options: [
@@ -7063,7 +7063,7 @@ const questions = [
 },
 {
   question: "According to the Law of Segregation, how many alleles for a gene does a gamete receive?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Easy",
   options: [
@@ -7082,7 +7082,7 @@ const questions = [
 },
 {
   question: "What does Mendel's Law of Independent Assortment state?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Easy",
   options: [
@@ -7101,7 +7101,7 @@ const questions = [
 },
 {
   question: "Which process provides the physical basis for Mendel's Law of Segregation?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Easy",
   options: [
@@ -7120,7 +7120,7 @@ const questions = [
 },
 {
   question: "A plant has genotype Bb. Which allele can appear in a gamete?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Easy",
   options: [
@@ -7139,7 +7139,7 @@ const questions = [
 },
 {
   question: "Which stage of meiosis is most directly responsible for segregation?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Easy",
   options: [
@@ -7158,7 +7158,7 @@ const questions = [
 },
 {
   question: "A gamete produced from genotype Tt can contain:",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Easy",
   options: [
@@ -7177,7 +7177,7 @@ const questions = [
 },
 {
   question: "Which chromosome pair is most important for understanding Mendel's laws?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Easy",
   options: [
@@ -7196,7 +7196,7 @@ const questions = [
 },
 {
   question: "Why are gametes haploid?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Easy",
   options: [
@@ -7215,7 +7215,7 @@ const questions = [
 },
 {
   question: "When fertilization occurs, the chromosome number:",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Easy",
   options: [
@@ -7234,7 +7234,7 @@ const questions = [
 },
 {
   question: "An individual has genotype Yy. Which gametes are possible?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Medium",
   options: [
@@ -7253,7 +7253,7 @@ const questions = [
 },
 {
   question: "An individual has genotype Rr. What proportion of gametes should contain the R allele?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Medium",
   options: [
@@ -7272,7 +7272,7 @@ const questions = [
 },
 {
   question: "An organism has genotype YyRr. How many different gamete combinations are possible?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Medium",
   options: [
@@ -7291,7 +7291,7 @@ const questions = [
 },
 {
   question: "Which gamete can be produced by an organism with genotype BbTt?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Medium",
   options: [
@@ -7310,7 +7310,7 @@ const questions = [
 },
 {
   question: "Which gamete cannot be produced by an organism with genotype YyRr?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Medium",
   options: [
@@ -7329,7 +7329,7 @@ const questions = [
 },
 {
   question: "What is the probability that a gamete from a Yy individual contains the y allele?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Medium",
   options: [
@@ -7348,7 +7348,7 @@ const questions = [
 },
 {
   question: "An individual has genotype AABb. How many different gamete types are possible?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Medium",
   options: [
@@ -7367,7 +7367,7 @@ const questions = [
 },
 {
   question: "A dihybrid organism is heterozygous for two genes. What does this mean?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Medium",
   options: [
@@ -7386,7 +7386,7 @@ const questions = [
 },
 {
   question: "The random orientation of homologous chromosome pairs during Metaphase I contributes directly to:",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Medium",
   options: [
@@ -7405,7 +7405,7 @@ const questions = [
 },
 {
   question: "A Yy individual produces a large number of gametes. Which outcome is most likely?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Medium",
   options: [
@@ -7424,7 +7424,7 @@ const questions = [
 },
 {
   question: "An individual has genotype YyRr. Which list contains all possible gametes?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Hard",
   options: [
@@ -7443,7 +7443,7 @@ const questions = [
 },
 {
   question: "A YyRr individual can produce four gamete types. What biological process allows this?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Hard",
   options: [
@@ -7462,7 +7462,7 @@ const questions = [
 },
 {
   question: "A cross between two YyRr individuals is performed. Assuming independent assortment, what classic phenotypic ratio is expected?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Hard",
   options: [
@@ -7481,7 +7481,7 @@ const questions = [
 },
 {
   question: "An organism has genotype AaBb. What is the probability of producing the gamete ab?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Hard",
   options: [
@@ -7500,7 +7500,7 @@ const questions = [
 },
 {
   question: "Which observation would provide the strongest evidence for independent assortment?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Hard",
   options: [
@@ -7519,7 +7519,7 @@ const questions = [
 },
 {
   question: "If the alleles of one gene always traveled together into gametes, which law would be violated?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Hard",
   options: [
@@ -7538,7 +7538,7 @@ const questions = [
 },
 {
   question: "A YyRr plant produces only YR and yr gametes. Which conclusion is most reasonable?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Hard",
   options: [
@@ -7557,7 +7557,7 @@ const questions = [
 },
 {
   question: "Which event during meiosis provides the strongest mechanistic explanation for the Law of Independent Assortment?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Hard",
   options: [
@@ -7576,7 +7576,7 @@ const questions = [
 },
 {
   question: "An organism has genotype AaBbCc. How many different gamete combinations are possible under independent assortment?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Hard",
   options: [
@@ -7595,7 +7595,7 @@ const questions = [
 },
 {
   question: "Why was Mendel's discovery of independent assortment important?",
-  category: "Chromosome Behavior",
+  category: "Predicting Phenotypes and Genotypes",
   exam: "Exam 3",
   difficulty: "Hard",
   options: [
