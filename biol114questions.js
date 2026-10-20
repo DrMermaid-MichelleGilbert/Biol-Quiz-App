@@ -7612,6 +7612,177 @@ const questions = [
     "Chromosome separation is central to Mendelian inheritance."
   ]
 },
+{
+  question: "An organism has genotype AaBbCc. What is the probability of producing the gamete abc?",
+  category: "Predicting Phenotypes and Genotypes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "1/4",
+    "1/8",
+    "1/16",
+    "1/32"
+  ],
+  correct: 1,
+  explanations: [
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+    "(1/2)(1/2)(1/2)=1/8, which is 12.5%.",
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+  ]
+},
+{
+  question: "An organism has genotype AaBbCc. How many different gamete types can it produce?",
+  category: "Predicting Phenotypes and Genotypes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "4",
+    "6",
+    "8",
+    "16"
+  ],
+  correct: 2,
+  explanations: [
+    "Too few.",
+    "This is not a power of two.",
+    "2³ = 8 possible gametes.",
+    "Too many."
+  ]
+},
+{
+  question: "Two individuals with genotype AaBb are crossed. What is the probability of producing offspring with genotype aabb?",
+  category: "Predicting Phenotypes and Genotypes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "1/4",
+    "1/8",
+    "1/16",
+    "1/32"
+  ],
+  correct: 2,
+  explanations: [
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+    "(1/4)(1/4)=1/16.",
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+  ]
+},
+{
+  question: "Two individuals with genotype AaBb are crossed. What is the probability of producing offspring with phenotype A_B_?",
+  category: "Predicting Phenotypes and Genotypes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "9/16",
+    "3/16",
+    "1/16",
+    "12/16"
+  ],
+  correct: 0,
+  explanations: [
+    "This is the classic dominant-dominant class of the 9:3:3:1 ratio.",
+    "This represents only one recessive class.",
+    "This represents double recessive offspring.",
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+  ]
+},
+{
+  question: "Two individuals with genotype AaBb are crossed. What is the probability of producing offspring with phenotype aaB_?",
+  category: "Predicting Phenotypes and Genotypes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "9/16",
+    "3/16",
+    "1/16",
+    "6/16"
+  ],
+  correct: 1,
+  explanations: [
+    "This is the dominant-dominant class.",
+    "The aaB_ phenotype occurs with probability 3/16.",
+    "This is the double recessive class.",
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+  ]
+},
+{
+  question: "Two individuals with genotype AaBbCc are crossed. What is the probability of producing offspring with genotype aabbcc?",
+  category: "Predicting Phenotypes and Genotypes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "1/8",
+    "1/16",
+    "1/32",
+    "1/64"
+  ],
+  correct: 3,
+  explanations: [
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+    "(1/4)(1/4)(1/4)=1/64."
+  ]
+},
+{
+  question: "An organism has genotype AaBbCc. What is the probability of producing a gamete containing exactly two recessive alleles?",
+  category: "Predicting Phenotypes and Genotypes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "1/8",
+    "3/8",
+    "4/8",
+    "6/8"
+  ],
+  correct: 1,
+  explanations: [
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+    "Abc, aBc, and abC each occur with equal frequency.",
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+  ]
+},
+{
+  question: "An organism has genotype AaBbCc. What fraction of its gametes will contain at least one recessive allele?",
+  category: "Predicting Phenotypes and Genotypes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "1/8",
+    "3/8",
+    "7/8",
+    "8/8"
+  ],
+  correct: 2,
+  explanations: [
+    "This is only the ABC gamete.",
+    "Too low.",
+    "Only ABC lacks recessive alleles, so 7 of 8 possible gametes contain at least one recessive allele.",
+    "Not every gamete contains a recessive allele."
+  ]
+},
+{
+  question: "An organism has genotype AABbCc. What is the probability of producing the gamete ABC?",
+  category: "Predicting Phenotypes and Genotypes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "1/2",
+    "1/4",
+    "1/8",
+    "1/16"
+  ],
+  correct: 1,
+  explanations: [
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+    "A is guaranteed, while B and C each contribute a 1/2 probability.",
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+    "Break the problem into separate genes, calculate the probability for each gene, and then use the multiplication rule to find the overall probability.",
+  ]
+},
 // =====================================================
 // EXAM 3 - MULTIPLE ALLELS AND PEDIGREES
 // =====================================================
