@@ -8929,6 +8929,272 @@ const questions = [
     "The allele remains part of the genome."
   ]
 },
+  {
+  question: "An XX individual is heterozygous for an X-linked recessive trait. Which statement is most accurate?",
+  category: "Sex Chromosomes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "The individual could be a carrier",
+    "The individual must express the trait",
+    "The individual lacks the recessive allele",
+    "The individual has an XY chromosome complement"
+  ],
+  correct: 0,
+  explanations: [
+    "Heterozygous XX individuals can often be carriers of X-linked recessive traits.",
+    "The dominant allele typically masks the recessive allele.",
+    "The recessive allele is present.",
+    "The chromosome complement is XX."
+  ]
+},
+{
+  question: "A carrier XX individual (XᴬXᵃ) and an unaffected XY individual (XᴬY) have offspring. What is the probability that an XY offspring will inherit the recessive allele?",
+  category: "Sex Chromosomes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "0%",
+    "25%",
+    "50%",
+    "100%"
+  ],
+  correct: 2,
+  explanations: [
+    "Some XY offspring may inherit the allele.",
+    "The probability is higher.",
+    "Half of the XY offspring are expected to inherit the X chromosome carrying the recessive allele.",
+    "Not every XY offspring inherits the recessive allele."
+  ]
+},
+{
+  question: "A carrier XX individual (XᴬXᵃ) and an unaffected XY individual (XᴬY) have offspring. What is the probability that an XX offspring will be a carrier?",
+  category: "Sex Chromosomes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "25%",
+    "50%",
+    "75%",
+    "100%"
+  ],
+  correct: 1,
+  explanations: [
+    "Carrier XX offspring are more common than this.",
+    "Half of the XX offspring are expected to inherit the recessive allele from the carrier parent.",
+    "The probability is lower.",
+    "Not all XX offspring will be carriers."
+  ]
+},
+{
+  question: "Which outcome is impossible for an unaffected XY individual carrying an X-linked recessive allele?",
+  category: "Sex Chromosomes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "Expressing the recessive phenotype",
+    "Being a carrier without expressing the trait",
+    "Passing the allele to offspring",
+    "Producing X-bearing gametes"
+  ],
+  correct: 1,
+  explanations: [
+    "An XY individual with the allele typically expresses it.",
+    "The concept of a silent carrier generally applies to heterozygous XX individuals.",
+    "The allele can be inherited by offspring.",
+    "XY individuals produce X-bearing and Y-bearing gametes."
+  ]
+},
+{
+  question: "Why are X-linked recessive disorders often more common in individuals with an XY chromosome complement?",
+  category: "Sex Chromosomes",
+  exam: "Exam 3",
+  difficulty: "Easy",
+  options: [
+    "Only one copy of the recessive allele is needed for expression",
+    "They have more X chromosomes",
+    "The Y chromosome contains every X-linked gene",
+    "Autosomes suppress X-linked traits"
+  ],
+  correct: 0,
+  explanations: [
+    "A single recessive X-linked allele can be expressed when no second X chromosome carries a dominant allele.",
+    "XY individuals have one X chromosome.",
+    "The Y chromosome lacks many X-linked genes.",
+    "Autosomes do not generally suppress X-linked traits."
+  ]
+},
+{
+  question: "An XY individual affected by an X-linked recessive trait has children with an unaffected XX individual who does not carry the allele. What proportion of XX offspring are expected to be carriers?",
+  category: "Sex Chromosomes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "0%",
+    "25%",
+    "50%",
+    "100%"
+  ],
+  correct: 3,
+  explanations: [
+    "All XX offspring inherit the affected X chromosome.",
+    "The frequency is higher.",
+    "All XX offspring are expected to receive the affected X chromosome.",
+    "All XX offspring receive the X-linked allele and becomes a carrier."
+  ]
+},
+{
+  question: "In an XY individual, which chromosome determines whether offspring receive a Y chromosome?",
+  category: "Sex Chromosomes",
+  exam: "Exam 3",
+  difficulty: "Easy",
+  options: [
+    "The X chromosome",
+    "Either chromosome can contribute a Y chromosome",
+    "The Y chromosome",
+    "Autosomes"
+  ],
+  correct: 2,
+  explanations: [
+    "The X chromosome does not contribute Y chromosomes.",
+    "Only one chromosome can contribute a Y chromosome.",
+    "The Y chromosome is passed through Y-bearing gametes.",
+    "Autosomes are not sex chromosomes."
+  ]
+},
+{
+  question: "A trait appears in an XY individual but not in either parent. Which explanation is most plausible?",
+  category: "Sex Chromosomes",
+  exam: "Exam 3",
+  difficulty: "Medium",
+  options: [
+    "A carrier XX parent transmitted a recessive X-linked allele",
+    "The trait disappeared during meiosis",
+    "The Y chromosome converted an autosome",
+    "Independent assortment failed completely"
+  ],
+  correct: 0,
+  explanations: [
+    "A carrier parent could pass a recessive X-linked allele to offspring.",
+    "Traits do not simply disappear.",
+    "Y chromosomes do not convert autosomes.",
+    "This would not explain the inheritance pattern."
+  ]
+},
+{
+  question: "A pedigree shows a trait appearing much more frequently among individuals with an XY chromosome complement than among those with an XX complement. What is the strongest hypothesis?",
+  category: "Sex Chromosomes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "The trait is X-linked recessive",
+    "The trait is always dominant",
+    "The trait is mitochondrial",
+    "The trait is unrelated to genetics"
+  ],
+  correct: 0,
+  explanations: [
+    "This pattern is characteristic of many X-linked recessive traits.",
+    "Dominance alone would not explain the bias.",
+    "Mitochondrial inheritance produces a different pattern.",
+    "The pedigree suggests genetic inheritance."
+  ]
+},
+{
+  question: "An XX individual carries one normal allele and one recessive allele for an X-linked trait. What percentage of gametes are expected to carry the recessive allele?",
+  category: "Sex Chromosomes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "0%",
+    "25%",
+    "50%",
+    "100%"
+  ],
+  correct: 2,
+  explanations: [
+    "Some gametes will carry the allele.",
+    "The probability is higher.",
+    "Half of the gametes are expected to receive the chromosome carrying the recessive allele.",
+    "Not every gamete receives that allele."
+  ]
+},
+{
+  question: "An affected XY individual passes an X-linked allele to which offspring?",
+  category: "Sex Chromosomes",
+  exam: "Exam 3",
+  difficulty: "Easy",
+  options: [
+    "All XX offspring",
+    "All XY offspring",
+    "Half of all offspring",
+    "No offspring"
+  ],
+  correct: 0,
+  explanations: [
+    "All XX offspring inherit the X chromosome.",
+    "All XY offspring inherit the Y chromosome.",
+    "The inheritance pattern is not random in this case.",
+    "The allele may be inherited."
+  ]
+},
+{
+  question: "Which inheritance pattern would be least likely for a gene located on an autosome?",
+  category: "Sex Chromosomes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "Equal frequency among XX and XY individuals",
+    "A strong bias toward XY individuals",
+    "Dominant inheritance",
+    "Recessive inheritance"
+  ],
+  correct: 1,
+  explanations: [
+    "Autosomal traits often affect both chromosome complements similarly.",
+    "A strong chromosome-complement bias suggests possible sex linkage.",
+    "Autosomal dominant traits are common.",
+    "Autosomal recessive traits are common."
+  ]
+},
+{
+  question: "A recessive allele occurs on the X chromosome. Which individual has the greatest probability of expressing the associated phenotype?",
+  category: "Sex Chromosomes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "XᴬXᵃ",
+    "XᴬXᴬ",
+    "XᵃY",
+    "XᴬY"
+  ],
+  correct: 2,
+  explanations: [
+    "The dominant allele masks the recessive allele.",
+    "No recessive allele is present.",
+    "The recessive allele is present on the individual's only X chromosome.",
+    "The recessive allele is absent."
+  ]
+},
+{
+  question: "Why are X-linked traits often useful for teaching inheritance patterns?",
+  category: "Sex Chromosomes",
+  exam: "Exam 3",
+  difficulty: "Medium",
+  options: [
+    "They produce distinctive pedigree and inheritance patterns",
+    "They are the only traits inherited genetically",
+    "They occur only in humans",
+    "They are always recessive"
+  ],
+  correct: 0,
+  explanations: [
+    "X-linked traits often show recognizable inheritance patterns.",
+    "Many non-X-linked traits are inherited genetically.",
+    "X-linked genes occur in many organisms.",
+    "Not all X-linked traits are recessive."
+  ]
+},
 // =====================================================
 // EXAM 3 - LINKED GENES
 // =====================================================
