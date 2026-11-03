@@ -9502,6 +9502,294 @@ const questions = [
     "Protein synthesis is unrelated."
   ]
 },
+  {
+  question: "A scientist observes that 48% of offspring are recombinant. What can be concluded about the genes involved?",
+  category: "Linked Genes",
+  exam: "Exam 3",
+  difficulty: "Medium",
+  options: [
+    "The genes are likely very far apart or on different chromosomes",
+    "The genes are tightly linked",
+    "Crossing over never occurs",
+    "The genes are identical"
+  ],
+  correct: 0,
+  explanations: [
+    "A recombination frequency near 50% suggests independent assortment or very distant genes.",
+    "Tightly linked genes produce fewer recombinants.",
+    "Crossing over clearly occurred.",
+    "The genes need not be identical."
+  ]
+},
+{
+  question: "Which pair of genes would be expected to produce the fewest recombinant offspring?",
+  category: "Linked Genes",
+  exam: "Exam 3",
+  difficulty: "Medium",
+  options: [
+    "Genes located very close together",
+    "Genes located on different chromosomes",
+    "Genes with different alleles",
+    "Genes in different individuals"
+  ],
+  correct: 0,
+  explanations: [
+    "Closely linked genes are less likely to be separated by crossing over.",
+    "Different chromosomes assort independently.",
+    "Allele differences do not determine recombination frequency.",
+    "The question concerns chromosome location."
+  ]
+},
+{
+  question: "A pair of linked genes produces 95% parental offspring and 5% recombinant offspring. What is the most likely explanation?",
+  category: "Linked Genes",
+  exam: "Exam 3",
+  difficulty: "Medium",
+  options: [
+    "The genes are very close together",
+    "The genes are on different chromosomes",
+    "Crossing over never occurs",
+    "The genes are recessive"
+  ],
+  correct: 0,
+  explanations: [
+    "A low recombinant frequency suggests tight linkage.",
+    "Different chromosomes usually produce much higher recombinant frequencies.",
+    "The existence of recombinants shows crossing over occurred.",
+    "Dominance is unrelated."
+  ]
+},
+{
+  question: "What is the maximum possible recombination frequency between two genes?",
+  category: "Linked Genes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "25%",
+    "50%",
+    "75%",
+    "100%"
+  ],
+  correct: 1,
+  explanations: [
+    "Recombination can exceed 25%.",
+    "50% represents the maximum observable recombination frequency.",
+    "Values above 50% are not possible.",
+    "100% recombination cannot occur."
+  ]
+},
+{
+  question: "A recombination frequency of 2% suggests that two genes are:",
+  category: "Linked Genes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "Very close together on a chromosome",
+    "On different chromosomes",
+    "Always inherited independently",
+    "Identical genes"
+  ],
+  correct: 0,
+  explanations: [
+    "A very low recombination frequency indicates tight linkage.",
+    "Different chromosomes generally show independent assortment.",
+    "The data suggest strong linkage.",
+    "The genes need not be identical."
+  ]
+},
+{
+  question: "Why does crossing over increase genetic variation?",
+  category: "Linked Genes",
+  exam: "Exam 3",
+  difficulty: "Medium",
+  options: [
+    "It creates new combinations of alleles",
+    "It creates new chromosomes",
+    "It doubles chromosome number",
+    "It destroys old alleles"
+  ],
+  correct: 0,
+  explanations: [
+    "Crossing over shuffles alleles into new combinations.",
+    "New chromosomes are not created.",
+    "Chromosome number remains unchanged.",
+    "Alleles are exchanged rather than destroyed."
+  ]
+},
+{
+  question: "Which result would provide the strongest evidence that two genes are linked?",
+  category: "Linked Genes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "Parental combinations greatly outnumber recombinant combinations",
+    "Parental and recombinant combinations occur equally",
+    "Only recombinant offspring are produced",
+    "No gametes are produced"
+  ],
+  correct: 0,
+  explanations: [
+    "An excess of parental combinations is characteristic of linkage.",
+    "Equal frequencies suggest independent assortment.",
+    "This pattern is not expected.",
+    "Gamete production is unrelated."
+  ]
+},
+{
+  question: "Genes A and B are found on the same chromosome. Which factor most influences whether they will recombine?",
+  category: "Linked Genes",
+  exam: "Exam 3",
+  difficulty: "Medium",
+  options: [
+    "The distance between the genes",
+    "Whether the genes are dominant",
+    "Whether the genes are recessive",
+    "The number of chromosomes in the cell"
+  ],
+  correct: 0,
+  explanations: [
+    "Greater distance increases the opportunity for crossing over.",
+    "Dominance does not affect recombination frequency.",
+    "Recessiveness does not affect recombination frequency.",
+    "Chromosome number is not the determining factor."
+  ]
+},
+{
+  question: "A scientist observes a recombination frequency of 50%. What conclusion is most reasonable?",
+  category: "Linked Genes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "The genes assort independently",
+    "The genes are tightly linked",
+    "Crossing over never occurs",
+    "The genes are identical"
+  ],
+  correct: 0,
+  explanations: [
+    "A 50% recombination frequency is characteristic of independent assortment.",
+    "Tightly linked genes produce fewer recombinant offspring.",
+    "Crossing over is not absent.",
+    "The genes need not be identical."
+  ]
+},
+{
+  question: "Why are parental allele combinations usually more common than recombinant combinations for linked genes?",
+  category: "Linked Genes",
+  exam: "Exam 3",
+  difficulty: "Medium",
+  options: [
+    "Crossing over does not occur between every pair of genes",
+    "Parental alleles are dominant",
+    "Linked genes do not replicate",
+    "Recombinant alleles are eliminated"
+  ],
+  correct: 0,
+  explanations: [
+    "Crossing over only occurs in a subset of meioses.",
+    "Dominance does not explain frequency differences.",
+    "Replication still occurs.",
+    "Recombinant alleles are not generally eliminated."
+  ]
+},
+{
+  question: "Which situation would be most likely to produce recombinant offspring?",
+  category: "Linked Genes",
+  exam: "Exam 3",
+  difficulty: "Medium",
+  options: [
+    "Crossing over between linked genes",
+    "DNA replication",
+    "Protein synthesis",
+    "Cytokinesis"
+  ],
+  correct: 0,
+  explanations: [
+    "Crossing over is the source of recombinant allele combinations.",
+    "Replication copies DNA.",
+    "Protein synthesis produces proteins.",
+    "Cytokinesis divides the cell."
+  ]
+},
+{
+  question: "A student claims that linked genes always remain together. Which statement best corrects this misconception?",
+  category: "Linked Genes",
+  exam: "Exam 3",
+  difficulty: "Medium",
+  options: [
+    "Crossing over can separate linked genes",
+    "Linked genes change chromosomes",
+    "Linked genes become dominant",
+    "Linked genes stop replicating"
+  ],
+  correct: 0,
+  explanations: [
+    "Crossing over allows linked genes to be separated.",
+    "Genes do not change chromosomes on their own.",
+    "Dominance is unrelated to linkage.",
+    "Replication is unrelated."
+  ]
+},
+{
+  question: "The number of recombinant offspring produced in a cross provides information about:",
+  category: "Linked Genes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "The distance between genes",
+    "The dominance of alleles",
+    "The number of chromosomes",
+    "The age of the organism"
+  ],
+  correct: 0,
+  explanations: [
+    "Recombination frequency reflects gene distance.",
+    "Dominance is unrelated.",
+    "Chromosome number is not determined this way.",
+    "Age is irrelevant."
+  ]
+},
+{
+  question: "Two genes show a recombination frequency of 1%. Compared with a second pair showing 20%, the first pair is likely:",
+  category: "Linked Genes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "Closer together on the chromosome",
+    "Farther apart on the chromosome",
+    "On different chromosomes",
+    "More dominant"
+  ],
+  correct: 0,
+  explanations: [
+    "Lower recombination frequencies indicate tighter linkage.",
+    "Greater distances lead to more recombination.",
+    "Different chromosomes generally approach 50% recombination.",
+    "Dominance is unrelated."
+  ]
+},
+{
+  question: "Why are linked genes important evidence that Mendel's law of independent assortment has exceptions?",
+  category: "Linked Genes",
+  exam: "Exam 3",
+  difficulty: "Hard",
+  options: [
+    "Genes on the same chromosome may be inherited together more often than expected",
+    "Genes no longer follow inheritance patterns",
+    "Crossing over prevents meiosis",
+    "Chromosomes fail to enter gametes"
+  ],
+  correct: 0,
+  explanations: [
+    "Physical linkage causes some genes to violate the expectation of independent assortment.",
+    "Inheritance patterns still occur.",
+    "Meiosis proceeds normally.",
+    "Chromosomes still enter gametes."
+  ]
+},
+// =====================================================
+// EXAM 4 - Cellular Respiration
+// =====================================================
 {
   question: "What is the primary purpose of cellular respiration?",
   category: "Cellular Respiration",
